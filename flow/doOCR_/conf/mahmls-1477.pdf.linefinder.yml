@@ -1,0 +1,41 @@
+edits:
+  - newWord ':' pa3.wo54 pa3.wo45    
+  - newWord ':' pa12.wo254 pa12.wo226
+  - newWord ':' pa14.wo72 pa14.wo48
+  - newWord ':' pa25.wo50 pa25.wo38
+  - newWord ':' pa60.wo322 pa60.wo309
+  - newWord ':' pa65.wo106 pa65.wo86
+  - newWord ':' pa81.wo21 pa81.wo13
+  - newWord ':' pa87.wo174 pa87.wo164
+
+  - newWord ':' pa92.wo68 pa92.wo57
+  - newWord ':' pa100.wo254 pa100.wo242
+  - newWord ':' pa117.wo100 pa117.wo64
+  - newWord ':' pa77.wo347 pa77.wo30
+  
+
+
+  - replaceStr pa102.wo165 <all> 'मध्याय '
+  - replaceStr pa102.wo166 <all> ')'
+  - replaceStr pa102.wo167 <all> ':'
+
+
+  - newWord '(९)' pa6.wo283 pa6.wo270
+
+  - clearWord pa2.wo222  
+  - clearWord pa22.wo199
+  - clearWord pa32.wo276
+  - clearWord pa37.wo81
+  - clearWord pa51.wo166
+  - clearWord pa62.wo263
+
+  - replaceStr pa67.wo80 <all> '(१)'
+
+  - clearWord pa76.wo75
+  - clearWord pa79.wo331
+  - clearWord pa86.wo288  
+  - clearWord pa95.wo138
+  - clearWord pa111.wo159
+
+  - replaceStr pa118.wo6 <all> '(१)'  
+

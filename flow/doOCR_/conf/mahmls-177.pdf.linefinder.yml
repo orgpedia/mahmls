@@ -1,0 +1,11 @@
+edits:
+  - replaceStr pa0.wo79 <all> ':'
+  - replaceStr pa1.wo310 <all> ':'
+  - replaceStr pa7.wo48 <all> ':'
+  - replaceStr pa7.wo48 <all> ':'
+  - replaceStr pa8.wo328 <all> ':'
+  - replaceStr pa9.wo216 <all> ':'
+  - replaceStr pa12.wo304 <all> ':'
+  - replaceStr pa16.wo36 <all> ':'
+  - replaceStr pa20.wo313 <all> ':'
+  - replaceStr pa21.wo218 <all> ':'

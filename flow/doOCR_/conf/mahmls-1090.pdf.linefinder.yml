@@ -1,0 +1,14 @@
+edits:
+  - clearWord pa6.wo132
+  - clearWord pa6.wo182
+
+  - replaceStr pa6.wo180 <all> '१०-०४-२०२०'  
+  - clearWord pa17.wo313
+
+  
+  - mergeWords pa17.wo308 pa17.wo309 pa17.wo310 pa17.wo311 pa17.wo312
+  #- replaceStr pa17.wo310 <all> '२९-११-२०२१'
+
+  - clearWord pa37.wo274
+  - replaceStr pa37.wo271 <all> '१७-०९'
+  - replaceStr pa37.wo272 <all> '-२०२१'

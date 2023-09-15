@@ -1,0 +1,16 @@
+edits:
+  - newWord ':' pa2.wo40 pa2.wo28
+  
+  - newWord ':' pa22.wo284 pa22.wo298
+  - newWord ':' pa23.wo195 pa23.wo195
+  - newWord ':' pa31.wo307 pa31.wo307
+  - newWord ':' pa37.wo40 pa37.wo28
+  - newWord ':' pa82.wo40 pa82.wo5
+
+  - clearWord pa37.wo244
+  - clearWord pa38.wo124
+  - clearWord pa49.wo233
+  - clearWord pa69.wo31
+  - clearWord pa101.wo48
+  - clearWord pa112.wo104    
+

@@ -1,0 +1,51 @@
+description: This folder(task) runs the OCR extracts tables and paragraphs, translates them and writes as a text file.
+
+
+#docker_pipes: [ 'doc_translator_a4b']
+
+ignore_docs:
+  mahmls-944.pdf: Ignore a table about questions
+  mahmls-957.pdf: Ignore a table about questions    
+
+output_dir: 'output'
+config_dir: 'conf'
+output_stub: 'doc'
+read_cache: False
+
+
+pipeline:
+  - name: gcv_recognizer2
+    config:
+      bucket: opfoundindia
+      compress_output: True
+
+  - name: orient_pages
+    config:
+      min_word_len: 4
+
+  # - name: page_image_builder_embedded
+  #   config:
+  #     image_dir: /export/page_images
+
+  # - name: html_generator
+  #   config:
+  #     html_root: output/html
+  #     color_dict:
+  #       word: blue
+
+
+  - name: line_finder
+    config:
+      keep_empty_lines: True
+      quick: True
+      newline_height_multiple: 1.6
+
+  - name: filter_words
+
+  - name: info_reader
+  - name: dashes_finder
+    
+  - name: question_extractor2
+
+  - name: question_translator    
+    

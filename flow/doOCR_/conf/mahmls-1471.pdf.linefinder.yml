@@ -1,0 +1,56 @@
+edits:
+  - newWord ':' pa11.wo76 pa11.wo116
+  - newWord ':' pa81.wo181 pa81.wo168
+  - newWord ':' pa123.wo276 pa123.wo285
+  - newWord ':' pa135.wo201 pa135.wo186
+
+  - newWord '(१)' pa135.wo195 pa135.wo186
+
+  - newWord ':' pa48.wo71 pa48.wo61
+  - newWord ':' pa141.wo21 pa141.wo11
+  - newWord ':' pa14.wo76 pa14.wo68 
+
+  - clearWords pa3.wo163  pa3.wo165
+
+  - clearWords pa16.wo260  pa16.wo262
+  
+  - replaceStr pa3.wo164 <all> ':'
+
+  - replaceStr pa18.wo32 <all> ':'  
+    
+  - clearWord pa15.wo240
+  - clearWord pa28.wo39
+  - clearWord pa36.wo1
+  - clearWord pa102.wo171
+  - clearWord pa140.wo148
+  - replaceStr pa20.wo232 <all> ':'
+
+  - newWord ':' pa34.wo210 pa34.wo115
+  - replaceStr pa43.wo90 <all> ':'
+  
+  - clearWord pa77.wo110
+  - replaceStr pa77.wo111 <all> ':'
+
+  - replaceStr pa100.wo128 <all> ':'
+
+  - clearWords pa101.wo94 pa101.wo96
+
+  - replaceStr pa114.wo183 <all> ':'
+
+  - newWord ':' pa116.wo282 pa116.wo273
+
+  - newWord ':' pa123.wo222 pa123.wo166
+
+  - replaceStr pa133.wo241 <all> ':'
+  - replaceStr pa142.wo50 <all> ':'
+
+  - replaceStr pa143.wo37 <all> ':'  
+  - clearWord pa143.wo38
+
+  - newWord ':' pa144.wo96 pa144.wo96
+
+  - replaceStr pa148.wo40 <all> ':'
+  - replaceStr pa150.wo169 <all> ':'
+
+  - newWord ':' pa124.wo168 pa124.wo159
+  

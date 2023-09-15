@@ -1,0 +1,5 @@
+edits:
+  - newWord ':' pa30.wo39 pa30.wo9
+  - replaceStr pa0.wo105 <all> 'श्री'
+  - replaceStr pa0.wo102 <all> '१'
+  - clearWord pa37.wo286

@@ -1,0 +1,19 @@
+edits:
+  - replaceStr pa1.wo350 <all> ':'
+  - replaceStr pa3.wo232 <all> ':'
+  - replaceStr pa4.wo214 <all> ':'
+  - replaceStr pa11.wo371 <all> ':'
+  - replaceStr pa16.wo261 <all> ':'
+  - replaceStr pa17.wo330 <all> ':'
+  - replaceStr pa18.wo45 <all> ':'
+  - replaceStr pa21.wo124 <all> ':'
+  - replaceStr pa22.wo209 <all> ':'
+  - replaceStr pa23.wo159 <all> ':'
+  - replaceStr pa28.wo209 <all> ':'
+
+
+  - replaceStr pa11.wo335 <all> '७००१'
+  - clearWord pa11.wo339
+
+  - newWord 'श्रीमती' pa15.wo267 pa15.wo211
+  - newWord ':' pa12.wo218 pa12.wo240

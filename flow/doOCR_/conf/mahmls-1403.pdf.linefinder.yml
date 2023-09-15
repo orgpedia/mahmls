@@ -1,0 +1,8 @@
+edits:
+  - replaceStr pa0.wo83 <all> '१'
+  - newWord '(२)' pa0.wo231 pa0.wo211
+
+  - replaceStr pa5.wo56 <all> '८'
+  
+  #- replaceStr pa4.wo199 <all> 'श्री नावनाही :'
+  #- newWord '(९)' pa4.wo337 pa4.wo319

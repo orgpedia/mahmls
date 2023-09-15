@@ -1,0 +1,10 @@
+edits:
+  - replaceStr pa11.wo190 <all> 'श्री नावनाही :'
+  - replaceStr pa14.wo26 <all> 'श्री नावनाही :'
+  - replaceStr pa18.wo187 <all> 'श्री नावनाही :'  
+  - replaceStr pa28.wo274 <all> 'श्री नावनाही :'
+  - replaceStr pa33.wo87 <all> 'श्री नावनाही :'
+  - replaceStr pa4.wo124 <all> '८'
+  - replaceStr pa8.wo4 <all> ') यवतमाळ'  
+  - newWord '(१)' pa0.wo89  pa0.wo76
+  - newWord '(६)' pa3.wo23  pa3.wo10  

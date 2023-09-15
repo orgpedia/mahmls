@@ -1,0 +1,14 @@
+edits:
+  - replaceStr pa0.wo93 <all> '१'
+  - replaceStr pa4.wo199 <all> 'श्री नावनाही :'
+  - newWord '(९)' pa4.wo337 pa4.wo319
+  - replaceStr pa9.wo268 <all> 'श्री नावनाही :'
+
+  - newWord 'नेमणुका' pa9.wo292 pa9.wo283
+  - newWord 'शासन' pa9.wo304 pa9.wo283
+  - newWord 'परिपत्रिका' pa9.wo336 pa9.wo283
+
+  - replaceStr pa11.wo156 <all> 'श्री नावनाही :'
+  - replaceStr pa12.wo176 <all> 'श्री नावनाही :'  
+  - replaceStr pa14.wo330 <all> 'श्री नावनाही :'
+  - replaceStr pa19.wo86 <all> 'श्री नावनाही :'        

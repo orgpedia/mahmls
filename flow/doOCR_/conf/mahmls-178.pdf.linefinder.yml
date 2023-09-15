@@ -1,0 +1,8 @@
+edits:
+  - replaceStr pa2.wo261 <all> ':'
+  - replaceStr pa14.wo112 <all> ':'
+  - replaceStr pa18.wo320 <all> ':'
+  - replaceStr pa19.wo92 <all> ':'
+  - replaceStr pa23.wo268 <all> ':'
+
+  - newWord ':' pa9.wo302 pa9.wo218

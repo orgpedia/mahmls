@@ -1,0 +1,96 @@
+description: This folder(task) runs the OCR extracts tables and paragraphs, translates them and writes as a text file.
+
+#docker_pipes: [ 'doc_translator_a4b']
+
+output_dir: 'output'
+config_dir: 'conf'
+output_stub: 'doc'
+read_cache: False
+
+ignore_docs:
+  mahmls-1545.pdf: Correction, should be ignored for now
+  mahmls-1552.pdf: Correction, should be ignored for now
+  mahmls-1555.pdf: Correction, should be ignored for now
+  mahmls-1557.pdf: Correction, should be ignored for now
+  mahmls-1559.pdf: Correction, should be ignored for now
+  mahmls-1564.pdf: Correction, should be ignored for now
+  mahmls-1567.pdf: Correction, should be ignored for now
+  mahmls-1568.pdf: Correction, should be ignored for now
+  mahmls-938.pdf: Salary of employees, should be ignored
+
+  mahmls-925.pdf: Some table best to ignore
+  mahmls-947.pdf: Some table best to ignore
+
+  mahmls-516.pdf: Proceedings, ignoring for the time being
+  mahmls-19.pdf: Proceedings, ignoring for the time being
+  mahmls-541.pdf: Proceedings, ignoring for the time being
+  mahmls-538.pdf: Proceedings, ignoring for the time being    
+
+  # mahmls-180.pdf: specific word is wrong 'udbhavat'  
+  # mahmls-181.pdf: specific word is wrong 'udbhavat'
+  # mahmls-182.pdf: specific word is wrong 'udbhavat'
+  
+  # mahmls-223.pdf: specific word is wrong 'udbhavat'
+  # mahmls-224.pdf: specific word is wrong 'udbhavat'
+  # mahmls-225.pdf: specific word is wrong 'udbhavat'
+  # mahmls-226.pdf: specific word is wrong 'udbhavat'
+  
+  # mahmls-151.pdf: specific word is wrong 'udbhavat'
+  # mahmls-153.pdf: specific word is wrong 'udbhavat'  
+  # mahmls-1524.pdf: specific word is wrong 'udbhavat'
+
+  # mahmls-353.pdf: specific word is wrong 'vidvat'  
+
+  # mahmls-457.pdf: last few lines are in some non-standard fonts
+  # mahmls-1154.pdf: last few lines are in some non-standard fonts  
+  # mahmls-1155.pdf: last few lines are in some non-standard fonts
+  # mahmls-1166.pdf: last few lines are in some non-standard fonts
+  # mahmls-1171.pdf: last few lines are in some non-standard fonts
+  # mahmls-1201.pdf: last few lines are in some non-standard fonts      
+  
+pipeline:
+
+  - name: pdf_cid_reader
+
+  # - name: page_image_builder_embedded
+  #   config:
+  #     image_dir: /export/page_images
+
+  # - name: html_generator
+  #   config:
+  #     html_root: output/html
+  #     color_dict:
+  #       word: blue
+      
+  - name: line_finder
+    config:
+      keep_empty_lines: True
+      quick: True
+      newline_height_multiple: 1.6
+
+  - name: info_reader
+  - name: question_extractor
+  - name: question_translator
+    
+
+  # - name: doc_translator_a4b
+  #   config:
+  #     mode: todo      
+  #     write_output: False
+  #     src_lang: 'mar_Deva'
+  #     tgt_lang: 'eng_Latn'
+
+  # - name: text_writer
+  #   config:
+  #     languages: ['en', 'mr']
+
+
+#########
+# Qsig: mahmls-47.pdf=52-37: t0-h0-q0-a201 sub_mismatch, role_missing, no_names
+# Qsig: mahmls-237.pdf=29-60: t0-h0-q0-a159 sub_mismatch, role_missing, no_names
+# Qsig: mahmls-265.pdf=26-20: t0-h0-q0-a368 sub_mismatch, role_missing, no_names TODO
+# Qsig: mahmls-323.pdf=15-14: t8-h0-q0-a57 sub_mismatch, role_missing, no_names
+# Qsig: mahmls-354.pdf=30-29: t0-h0-q0-a217 sub_mismatch, role_missing, no_names
+# Qsig: mahmls-450.pdf=0-17: t0-h0-q0-a252 sub_mismatch, role_missing, no_names
+
+
