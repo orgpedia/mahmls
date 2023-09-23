@@ -12,3 +12,9 @@ edits:
   - replaceStr pa12.wo176 <all> 'श्री नावनाही :'  
   - replaceStr pa14.wo330 <all> 'श्री नावनाही :'
   - replaceStr pa19.wo86 <all> 'श्री नावनाही :'        
+
+  - replaceStr pa28.wo197 <all> 'पणन'
+
+  - replaceStr pa2.wo277 <all> 'श्री नावनाही :'
+  - replaceStr pa19.wo86 <all> 'श्री नावनाही :'
+  - replaceStr pa20.wo82 <all> 'श्री नावनाही :'    

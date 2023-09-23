@@ -8,6 +8,7 @@ import question_extractor2
 import info_reader
 import find_dashes
 import question_translator
+import question_writer
 import filter_words
 
 
@@ -23,7 +24,7 @@ if __name__ == "__main__":
     viz = docint.load("src/writeTxt.yml")
 
     if input_path.is_dir():
-        assert output_path.is_dir()
+        assert output_path.is_dir(), f'{output_path} is not directory'
         input_files = sorted(input_path.glob("*.pdf"), key=order_num)
         print(len(input_files))
 
@@ -31,7 +32,7 @@ if __name__ == "__main__":
         docs = viz.pipe_all(input_files)
 
         for doc in docs:
-            output_doc_path = output_path / (doc.pdf_name + ".doc.json")
+            output_doc_path = output_path / (doc.pdf_name + ".doc.json.gz")
             doc.to_disk(output_doc_path)
     elif input_path.suffix.lower() == ".pdf":
         doc = viz(input_path)
@@ -46,5 +47,5 @@ if __name__ == "__main__":
 
         docs = viz.pipe_all(pdf_files)
         for doc in docs:
-            output_doc_path = output_path / (doc.pdf_name + ".doc.json")
+            output_doc_path = output_path / (doc.pdf_name + ".doc.json.gz")
             doc.to_disk(output_doc_path)

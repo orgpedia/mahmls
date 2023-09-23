@@ -1,0 +1,5 @@
+edits:
+  # adding '.' so that this line does not get caught as a question spearator
+  
+  - replaceStr pa67.wo162 <all> '---------.'
+  - replaceStr pa67.wo166 <all> '---------.'  

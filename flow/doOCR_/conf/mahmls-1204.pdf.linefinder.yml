@@ -1,0 +1,16 @@
+edits:
+  - clearWord pa1.wo21
+  - clearWord pa2.wo270
+  - clearWord pa3.wo80
+  - clearWord pa16.wo20
+  - clearWord pa19.wo65
+  - clearWord pa31.wo35
+  - clearWord pa39.wo205
+  - clearWord pa41.wo271
+  - clearWord pa42.wo134
+
+  - mergeWords pa16.wo333 pa16.wo334 pa16.wo335 pa16.wo336 pa16.wo337
+  - mergeWords pa19.wo60 pa19.wo61 pa19.wo62 pa19.wo63 pa19.wo64
+  - mergeWords pa31.wo30 pa31.wo31 pa31.wo32 pa31.wo33 pa31.wo34
+
+

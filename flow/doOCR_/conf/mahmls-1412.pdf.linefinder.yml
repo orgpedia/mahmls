@@ -1,0 +1,5 @@
+edits:
+  - replaceStr pa0.wo138 <all> '१'
+  - newWord '(७)' pa4.wo337 pa4.wo317
+  - newWord '(१२)' pa8.wo52 pa8.wo39
+

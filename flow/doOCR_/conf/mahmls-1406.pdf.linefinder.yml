@@ -6,11 +6,21 @@ edits:
   - replaceStr pa9.wo1 <all> 'श्री नावनाही :'          
   - replaceStr pa9.wo262 <all> 'श्री नावनाही :'        
   - replaceStr pa12.wo126 <all> 'श्री नावनाही :'
+  - replaceStr pa13.wo268 <all> 'श्री नावनाही :'
+  
   - replaceStr pa14.wo134 <all> 'श्री नावनाही :'
   - replaceStr pa15.wo22 <all> 'श्री नावनाही :'
   - replaceStr pa16.wo0 <all> 'श्री नावनाही :'
   - replaceStr pa26.wo361 <all> 'श्री नावनाही :'
   - replaceStr pa31.wo94 <all> 'श्री नावनाही :'
   - replaceStr pa33.wo24 <all> 'श्री नावनाही :'
-  - replaceStr pa34.wo186 <all> 'श्री नावनाही :'                  
+  - replaceStr pa34.wo186 <all> 'श्री नावनाही :'
+
+  - replaceStr pa7.wo123 <all> 'पुढील'
+  - newWord ':' pa28.wo222 pa28.wo204
+
+  - replaceStr pa32.wo41 <all> 'पुढील'      
+  - replaceStr pa32.wo357 <all> 'पुढील'
+
+  
   

@@ -3,6 +3,10 @@ edits:
   - newWord '(२)' pa0.wo231 pa0.wo211
 
   - replaceStr pa5.wo56 <all> '८'
+
+  - newWord ':' pa5.wo347 pa5.wo335
+  - newWord ':' pa9.wo371 pa9.wo347
+  - newWord ':' pa15.wo357 pa15.wo344
   
   #- replaceStr pa4.wo199 <all> 'श्री नावनाही :'
   #- newWord '(९)' pa4.wo337 pa4.wo319

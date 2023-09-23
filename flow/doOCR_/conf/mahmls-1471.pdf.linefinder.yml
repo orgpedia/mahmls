@@ -54,3 +54,5 @@ edits:
 
   - newWord ':' pa124.wo168 pa124.wo159
   
+  - replaceStr pa27.wo71 <all> ':'
+  - clearWord pa110.wo83

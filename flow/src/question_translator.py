@@ -158,7 +158,14 @@ class QuestionTranslator:
         self.save_translations()
 
     def get_trans(self, text):
-        return None if text.isascii() else self.translations.get(text, None)
+        if text.isascii():
+            return text
+        else:
+            t = self.translations.get(text, None)
+            if t is None:
+                print(f'**TRANSLATE_ERROR: {text}')
+            return t
+        #return None if text.isascii() else self.translations.get(text, None)
 
     def translate_question(self, question):
         def mk_list(lst):
@@ -166,6 +173,12 @@ class QuestionTranslator:
 
         def mk_zip_list(field):
             return zip(mk_list(question.get(field, [])), mk_list(en_question.get(field, [])))
+
+        def get_num(num_str):
+            try:
+                return int(num_str)
+            except ValueError as e:
+                return num_str
             
         en_question = {}
         en_question['title'] = self.get_trans(question['title'])
@@ -174,13 +187,19 @@ class QuestionTranslator:
         en_question['minister_name'] = self.get_trans(question['minister_name'])
 
         en_question['sub_questions'] = [self.get_trans(s) for s in question.get('sub_questions',[])]
-        en_question['sub_answers'] = [self.get_trans(s) for s in question.get('sub_answers',[])]
+        en_question['sub_answers'] = [self.get_trans(s) for s in question.get('sub_answers', [])]
+
+        en_question['question'] = '\n'.join(q for q in en_question['sub_questions'] if q)
+        en_question['answer'] = '\n'.join(a for a in en_question['sub_answers'] if a)
+        en_question['question_num'] = get_num(question.get('question_num', ''))
 
         para_fields = ['title', 'sub_questions', 'sub_answers']
         sent_fields = ['names', 'role', 'minister_name']
 
         todo_paras = [ m for f in para_fields for (m, e) in mk_zip_list(f) if e is None ]
         todo_sents = [ m for f in sent_fields for (m, e) in mk_zip_list(f) if e is None ]
+
+        #print(f'#sents: {len(todo_sents)} #paras: {len(todo_paras)}')
 
         return en_question, todo_paras, todo_sents
 
@@ -197,7 +216,6 @@ class QuestionTranslator:
             write_todos = False
 
             doc.en_questions = []
-
             
             for question in doc.questions:
                 en_question, q_unk_paras, q_unk_sents  = self.translate_question(question)
@@ -212,12 +230,17 @@ class QuestionTranslator:
                 else:
                     doc.en_questions.append(en_question)
             #end for
+            
+            h_todo_sents = [ s for s in doc.header_lines if s not in self.sent_todos ]
+            if h_todo_sents:
+                self.sent_todos.update(h_todo_sents)
+                write_todos = True
 
             if write_todos:
                 print("Document NOT translated, writing todos")
-                #self.save_todos()
+                self.save_todos()
             else:
-                print("Document FULLY TRANSLATED")
+                print(f"No todos to write write_todos: {write_todos}")
         else:
             pass
 

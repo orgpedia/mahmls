@@ -1,0 +1,9 @@
+edits:
+  - replaceStr pa0.wo121 <all> '१'
+  - replaceStr pa1.wo319 <all> '1'
+  - replaceStr pa4.wo191 <all> '८'
+  - replaceStr pa6.wo29 <all> '1) '
+  - replaceStr pa38.wo36 <all> '५७)'
+
+  - replaceStr pa51.wo37 <all> ') राज्यात'
+  - clearWord pa51.wo36

@@ -1,0 +1,6 @@
+edits:
+  - newWord '(२)' pa0.wo268 pa0.wo255
+  - replaceStr pa4.wo352 <all> '८'
+  - newWord '(९)' pa5.wo133 pa5.wo117
+  - clearWord pa1.wo0
+  - replaceStr pa0.wo271 <all> 'पुढील'

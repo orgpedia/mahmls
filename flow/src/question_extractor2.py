@@ -9,7 +9,7 @@ from docint.vision import Vision
 
 NumDashes = 3
 Sections = ['title', 'header', 'question', 'answer']
-Saluts = ('श्री', 'श्रीमती', 'डॉ', 'प्रा.', 'अॅड', 'ॲड', 'ॲङ')
+Saluts = ('श्री', 'श्रीमती', 'डॉ', 'प्रा.', 'अॅड', 'ॲड', 'ॲङ', 'मा.')
 
 @Vision.factory(
     "question_extractor2",
@@ -29,7 +29,15 @@ class QuestionExtractor:
 
         names_start_idx = min([text.index(s) for s in Saluts if s in text], default=0)
         
-        long_num = text[:names_start_idx].strip()
+        long_num = text[:names_start_idx].strip().strip('॥')
+        question_date = ''
+        if '(' in long_num:
+            long_num, question_date = long_num.split('(', 1)
+            question_date = question_date.strip('() .*')
+        else:
+            long_num = long_num.strip('*')
+            
+        #print(f'{long_num}->{question_date}')
         
         text = text[names_start_idx:]
         names_end_idx = text.index(':')
@@ -40,7 +48,8 @@ class QuestionExtractor:
         role_end_idx = text.index('पुढील') if 'पुढील' in text else len(text)
         role = text[:role_end_idx].strip()
         role = role.replace('पुढील गोष्टींचा खुलासा करतील काय', '').replace('सन्माननीय', '').strip(':-').strip()
-        return {'header': orig_text, 'question_num': num, 'names': names, 'role': role}
+        return {'header': orig_text, 'question_num': num, 'names': names, 'role': role,
+                'long_num': long_num, 'question_date': question_date}
 
     def parse_question(self, lines):
         orig_text =' '.join(l.text_with_break() for l in lines)
@@ -70,12 +79,24 @@ class QuestionExtractor:
         for i in range(1, len(points), 2):
             sub_answers.append(f"{points[i]} {points[i+1].strip()}".strip())
 
-        return {'answer': orig_text, 'minister_name': minister_name, 'sub_answers': sub_answers}
+
+        answer_date = ''
+        if '(' in minister_name:
+            paren_index = minister_name.rindex('(')
+            minister_name, answer_date = minister_name[:paren_index],minister_name[paren_index:]
+            answer_date = answer_date.strip('(). ')
+            minister_name = minister_name.strip()
+
+        #print(minister_name, answer_date)
+
+        return {'answer': orig_text, 'minister_name': minister_name, 'sub_answers': sub_answers,
+                'answer_date': answer_date}
 
 
     def build_question(self, page_idx, line_idx, question_lines, question_num, doc_type):
         def is_header_start(line):
             line_text = line.text_with_break().strip()
+            line_text = line_text.replace('–', '-')            
             # import pdb
             # pdb.set_trace()
             if doc_type == 'StarredQuestions':
@@ -88,6 +109,7 @@ class QuestionExtractor:
 
         def is_question_start(line):
             line_text = line.text_with_break().strip().strip('◌़')
+            line_text = line_text.replace('–', '-')
 
             if not line_text:
                 return False
@@ -117,8 +139,8 @@ class QuestionExtractor:
                     return False
                 #return line_text and line_text.startswith(Saluts)
 
-        print_line = True
-        # if question_num == 1:
+        print_line = False
+        # if question_num == 2:
         #     print_line = True
         #     import pdb
         #     pdb.set_trace()
@@ -167,9 +189,10 @@ class QuestionExtractor:
             for (line_idx, line) in enumerate(page.lines):
 
                 #if page.page_idx == 0:
-                #print(f'{line_idx}) {line.text_with_break()} # words {len(line.words)}')
+                # print(f'{line_idx}) {line.text_with_break()} # words {len(line.words)}')
 
                 if is_dashed(line, page):
+                    #print('\tYielding')
                     yield (page_idx, first_line_idx, question_lines)
                     page_idx, first_line_idx = page.page_idx, line_idx
                     question_lines = [ line ]
@@ -181,6 +204,18 @@ class QuestionExtractor:
                 else:
                     if line.words:
                         question_lines.append(line)
+            #end for
+            if dash_edges_idx < len(page.dash_edges) and question_lines:
+                #print('\t*** LAST Yielding***')
+                yield (page_idx, first_line_idx, question_lines)
+                page_idx, first_line_idx = page.page_idx + 1, 0
+                question_lines = [ ]
+                dash_edges_idx += 1
+                
+                
+                
+
+            
         yield (page_idx, line_idx, question_lines)
 
     def check(self, question):
@@ -197,7 +232,7 @@ class QuestionExtractor:
         if not min_name or len(min_name) < 10:
             no_answer = True if 'उत्तर आले नाही' in question.get('answer', '') else False
             if not no_answer:
-                errs.append('incorrect_min')
+                errs.append(f'incorrect_min>{min_name}<')
 
         role = question.get('role', '')
         errs += ['role_missing'] if not role or len(role) < 10 else []
@@ -229,14 +264,27 @@ class QuestionExtractor:
 
 
         doc.add_extra_field("questions", ("noparse", "", ""))
-        doc.questions, question_num = [], 1
+        doc.add_extra_field("header_lines", ("noparse", "", ""))
+        
+        
+        doc.questions, doc.header_lines, question_num = [], [], 1
         for (page_idx, line_idx, question_lines) in self.question_iter(doc):
-            if (page_idx == 0 and len(question_lines) < 12) or (page_idx != 0 and len(question_lines) < 10):
-                print(f"Skipping lines: {doc.pdf_name}-{page_idx} #lines{len(question_lines)}")
+            
+            if (page_idx == 0 and len(question_lines) < 12) or (page_idx != 0 and len(question_lines) < 8):
+                if page_idx == 0:
+                    doc.header_lines.extend(ln.raw_text() for ln in question_lines)
+
+                if page_idx != 0 and page_idx < len(doc.pages) - 2:
+                    # only print if it is a middle page
+                    print(f"Skipping lines: {doc.pdf_name}-{page_idx} #lines{len(question_lines)}")
                 continue
 
-            if 'तारांकित प्रश्नोत्तरांची यादी' in question_lines[0].text_with_break():
-                print(f"Skipping lines: {doc.pdf_name}-{page_idx} #lines{len(question_lines)}")
+
+            if 'तारांकित प्रश्नोत्तरांची यादी' in question_lines[0].raw_text() or 'तारांकित प्रश्र्नोत्तरांची यादी' in question_lines[0].raw_text():
+                if page_idx == 0:
+                    doc.header_lines.extend(ln.raw_text() for ln in question_lines)
+                else:
+                    print(f"Skipping lines: {doc.pdf_name}-{page_idx} *#lines{len(question_lines)}")                    
                 continue
 
             try:

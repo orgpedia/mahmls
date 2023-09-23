@@ -12,5 +12,41 @@ edits:
   - clearWord pa49.wo233
   - clearWord pa69.wo31
   - clearWord pa101.wo48
-  - clearWord pa112.wo104    
+  - clearWord pa112.wo104
 
+  - replaceStr pa1.wo124 <all> ':'
+  - clearWord pa1.wo125
+
+  - replaceStr pa12.wo222 <all> ':'
+  - clearWord pa12.wo223
+
+  - replaceStr pa49.wo223 <all> ':'
+  - replaceStr pa51.wo302 <all> ':'
+  - replaceStr pa62.wo99 <all> ':'
+  - replaceStr pa63.wo86 <all> ':'
+  
+  - replaceStr pa66.wo106 <all> ':'
+  - clearWord pa66.wo107
+  
+  - replaceStr pa69.wo224 <all> ':'
+  - clearWord pa69.wo225
+
+  - replaceStr pa86.wo72 <all> ':'
+  
+  - replaceStr pa99.wo54 <all> ':'
+  - clearWord pa69.wo55
+
+  - replaceStr pa101.wo37 <all> ':'
+  
+  - replaceStr pa102.wo76 <all> ':'
+  - clearWord pa102.wo77  
+  
+  - replaceStr pa109.wo183 <all> ':'    
+  
+  - replaceStr pa110.wo354 <all> ':'
+  - clearWord pa110.wo355
+  
+  - replaceStr pa119.wo319 <all> ':'
+  - clearWord pa119.wo320
+
+  - clearWord pa89.wo5

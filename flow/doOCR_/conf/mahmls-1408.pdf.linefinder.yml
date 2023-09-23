@@ -1,0 +1,15 @@
+edits:
+  - replaceStr pa0.wo115 <all> '१'
+  - replaceStr pa5.wo124 <all> '८'
+  - newWord ':' pa4.wo93 pa4.wo83
+  - replaceStr pa35.wo94 <all> '(1'
+
+  - newWord ':' pa15.wo160  pa15.wo146
+  - newWord ':' pa17.wo399 pa17.wo363
+  - newWord ':' pa39.wo158 pa39.wo144
+  - newWord ':' pa51.wo23 pa51.wo6  
+  
+  # - replaceStr pa1.wo319 <all> '1'
+  # - replaceStr pa4.wo191 <all> '८'
+  # - replaceStr pa6.wo29 <all> '1) '
+  # - replaceStr pa38.wo36 <all> '५७)'      

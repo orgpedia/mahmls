@@ -1,3 +1,4 @@
 edits:
   - newWord ':' pa5.wo218 pa5.wo203
   - replaceStr pa0.wo100 <all> '१'
+  - replaceStr pa7.wo22 <all> '८'

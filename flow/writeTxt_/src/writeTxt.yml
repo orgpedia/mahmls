@@ -8,45 +8,93 @@ output_stub: 'doc'
 read_cache: False
 
 ignore_docs:
-  mahmls-1545.pdf: Correction, should be ignored for now
-  mahmls-1552.pdf: Correction, should be ignored for now
-  mahmls-1555.pdf: Correction, should be ignored for now
-  mahmls-1557.pdf: Correction, should be ignored for now
-  mahmls-1559.pdf: Correction, should be ignored for now
-  mahmls-1564.pdf: Correction, should be ignored for now
-  mahmls-1567.pdf: Correction, should be ignored for now
-  mahmls-1568.pdf: Correction, should be ignored for now
+  mahmls-1545.pdf: Correction document, should be ignored for now
+  mahmls-1552.pdf: Correction document, should be ignored for now
+  mahmls-1555.pdf: Correction document, should be ignored for now
+  mahmls-1557.pdf: Correction document, should be ignored for now
+  mahmls-1559.pdf: Correction document, should be ignored for now
+  mahmls-1564.pdf: Correction document, should be ignored for now
+  mahmls-1567.pdf: Correction document, should be ignored for now
+  mahmls-1568.pdf: Correction document, should be ignored for now
   mahmls-938.pdf: Salary of employees, should be ignored
 
   mahmls-925.pdf: Some table best to ignore
   mahmls-947.pdf: Some table best to ignore
 
-  mahmls-516.pdf: Proceedings, ignoring for the time being
-  mahmls-19.pdf: Proceedings, ignoring for the time being
-  mahmls-541.pdf: Proceedings, ignoring for the time being
-  mahmls-538.pdf: Proceedings, ignoring for the time being    
+  mahmls-1.pdf: Proceedings ignoring
+  mahmls-2.pdf: Proceedings ignoring
+  mahmls-3.pdf: Proceedings ignoring
+  mahmls-4.pdf: Proceedings ignoring
+  mahmls-5.pdf: Proceedings ignoring
+  mahmls-6.pdf: Proceedings ignoring
+  mahmls-7.pdf: Proceedings ignoring
+  mahmls-8.pdf: Proceedings ignoring
+  mahmls-9.pdf: Proceedings ignoring
+  mahmls-10.pdf: Proceedings ignoring
+  mahmls-11.pdf: Proceedings ignoring
+  mahmls-12.pdf: Proceedings ignoring
+  mahmls-14.pdf: Proceedings ignoring
+  mahmls-16.pdf: Proceedings ignoring
+  mahmls-17.pdf: Proceedings ignoring
+  mahmls-21.pdf: Proceedings ignoring
+  mahmls-515.pdf: Proceedings ignoring
+  mahmls-519.pdf: Proceedings ignoring
+  mahmls-520.pdf: Proceedings ignoring
+  mahmls-521.pdf: Proceedings ignoring
+  mahmls-524.pdf: Proceedings ignoring
+  mahmls-525.pdf: Proceedings ignoring
+  mahmls-529.pdf: Proceedings ignoring
+  mahmls-530.pdf: Proceedings ignoring
+  mahmls-540.pdf: Proceedings ignoring
+  mahmls-543.pdf: Proceedings ignoring
+  mahmls-544.pdf: Proceedings ignoring
+  mahmls-1626.pdf: Proceedings ignoring  
 
-  # mahmls-180.pdf: specific word is wrong 'udbhavat'  
-  # mahmls-181.pdf: specific word is wrong 'udbhavat'
-  # mahmls-182.pdf: specific word is wrong 'udbhavat'
-  
-  # mahmls-223.pdf: specific word is wrong 'udbhavat'
-  # mahmls-224.pdf: specific word is wrong 'udbhavat'
-  # mahmls-225.pdf: specific word is wrong 'udbhavat'
-  # mahmls-226.pdf: specific word is wrong 'udbhavat'
-  
-  # mahmls-151.pdf: specific word is wrong 'udbhavat'
-  # mahmls-153.pdf: specific word is wrong 'udbhavat'  
-  # mahmls-1524.pdf: specific word is wrong 'udbhavat'
+  # IGNORING, NO HARM
+  # mahmls-129.pdf=10-32[15]: t16-h17-q56-a69 subq_zero: questions are separated by 1), 2)
+  # mahmls-155.pdf=15-72[23]: t14-h15-q47-a115 subq_zero: questions are separated by 1), 2)
 
-  # mahmls-353.pdf: specific word is wrong 'vidvat'  
+  # mahmls-592.pdf=3-58[6]: t11-h16-q37-a51 subq_zero: questions are separated by 1), 2)
+  # mahmls-592.pdf=22-62[35]: t9-h38-q112-a28 subq_zero: questions are separated by 1), 2)
+  # mahmls-616.pdf=4-64[7]: t13-h15-q60-a71 subq_zero: questions are separated by 1), 2)
+  # mahmls-661.pdf=4-12[8]: t9-h21-q59-a67 subq_zero: questions are separated by 1), 2)
+  # mahmls-841.pdf=28-22[40]: t10-h21-q78-a54 subq_zero: not enough space between (1)text
+  # mahmls-877.pdf=20-18[29]: t14-h16-q58-a58 subq_zero: not enough space between (1)text
+  # mahmls-1010.pdf=22-63[31]: t15-h24-q77-a125 subq_zero: questions are separated by 1., 2.
+  # mahmls-1031.pdf=11-30[18]: t12-h17-q69-a30 subq_zero: questions are separated by 1), 2)
 
-  # mahmls-457.pdf: last few lines are in some non-standard fonts
-  # mahmls-1154.pdf: last few lines are in some non-standard fonts  
-  # mahmls-1155.pdf: last few lines are in some non-standard fonts
-  # mahmls-1166.pdf: last few lines are in some non-standard fonts
-  # mahmls-1171.pdf: last few lines are in some non-standard fonts
-  # mahmls-1201.pdf: last few lines are in some non-standard fonts      
+  # mahmls-224.pdf=13-13[29]: t11-h22-q124-a94 role_incorrect: Typo no 'mantri' at the end of role
+  # mahmls-546.pdf=3-20[5]: t17-h35-q72-a70 role_incorrect: Typo no 'mantri' at the end of role
+  # mahmls-547.pdf=15-32[24]: t13-h21-q49-a63 role_incorrect: Typo no 'mantri' at the end of role
+  # mahmls-589.pdf=5-47[10]: t6-h17-q160-a112 role_incorrect: Typo no 'mantri' at the end of role
+  # mahmls-595.pdf=5-50[11]: t11-h23-q48-a47 role_incorrect: Typo no 'mantri' at the end of role
+  # mahmls-770.pdf=4-9[6]: t13-h22-q87-a46 role_incorrect: Typo no 'mantri' at the end of role
+  # mahmls-1293.pdf=0-11[1]: t5-h18-q66-a83 role_incorrect: Typo no 'mantri' at the end of role
+  # mahmls-1372.pdf=61-42[71]: t8-h15-q84-a3 role_incorrect: Typo no 'mantri' at the end of role
+  # mahmls-1399.pdf=21-59[22]: t7-h54-q90-a57 role_incorrect:Typo no 'mantri' at the end of role
+
+  # mahmls-323.pdf=15-14[13]: t8-h0-q0-a48 Question was cancelled
+
+  # IGNORING BUT INVESTIGATE
+  # mahmls-337.pdf-67 # 1 '----' used for subtotaling - need center_alined
+  # mahmls-1266.pdf-1266 # WRONG LINE: _____,______
+  # mahmls-265.pdf=26-20[28]: t0-h0-q0-a370 subq_zero, role_missing , role_incorrect, no_names:
+  #                           First two name words are NOT bold.
+  # mahmls-63.pdf=0-12[1]: t0-h0-q0-a221 subq_zero, role_missing , role_incorrect, no_names
+  #                        the first word is visibly bold, but the font is not bold nor line_width
+  # mahmls-1088.pdf=2-62[3]: t0-h0-q0-a290 subq_zero, role_missing, role_incorrect, no_names
+  #                          ignoring because answer first word is bold (1) is bold !!!
+  # mahmls-1224.pdf=0-11[1]: t0-h0-q0-a380 subq_zero, role_missing , role_incorrect, no_names
+  #                          ignoring because question first is not bold (1) is NOT bold !!
+  # mahmls-727.pdf=26-29[32]: t18-h23-q202-a0 incorrect_min, no_answer
+  #                          ignoring because minister name is missing and not bold
+  # mahmls-512.pdf=Skipping lines: mahmls-512.pdf-6 #lines0
+  # mahmls-1635.pdf=29-5[28]: t12-h27-q148-a0 incorrect_min ><, no_answer
+  #                           'Shree' is incorrectly captured, but visually is correct
+  # mahmls-1653.pdf=15-27[19]: t0-h0-q0-a0 subq_zero, incorrect_min ><, role_missing, role_incorrect, no_answer, no_names
+  #                           Starting word looks bold but is not.
+  # mahmls-1653.pdf=20-38[24]: t0-h0-q0-a0 subq_zero, incorrect_min ><, role_missing, role_incorrect, no_answer, no_names
+  #                           Starting word looks bold but is not.
   
 pipeline:
 
@@ -61,7 +109,7 @@ pipeline:
   #     html_root: output/html
   #     color_dict:
   #       word: blue
-      
+
   - name: line_finder
     config:
       keep_empty_lines: True
@@ -71,26 +119,4 @@ pipeline:
   - name: info_reader
   - name: question_extractor
   - name: question_translator
-    
-
-  # - name: doc_translator_a4b
-  #   config:
-  #     mode: todo      
-  #     write_output: False
-  #     src_lang: 'mar_Deva'
-  #     tgt_lang: 'eng_Latn'
-
-  # - name: text_writer
-  #   config:
-  #     languages: ['en', 'mr']
-
-
-#########
-# Qsig: mahmls-47.pdf=52-37: t0-h0-q0-a201 sub_mismatch, role_missing, no_names
-# Qsig: mahmls-237.pdf=29-60: t0-h0-q0-a159 sub_mismatch, role_missing, no_names
-# Qsig: mahmls-265.pdf=26-20: t0-h0-q0-a368 sub_mismatch, role_missing, no_names TODO
-# Qsig: mahmls-323.pdf=15-14: t8-h0-q0-a57 sub_mismatch, role_missing, no_names
-# Qsig: mahmls-354.pdf=30-29: t0-h0-q0-a217 sub_mismatch, role_missing, no_names
-# Qsig: mahmls-450.pdf=0-17: t0-h0-q0-a252 sub_mismatch, role_missing, no_names
-
-
+  - name: question_writer

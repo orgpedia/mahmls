@@ -4,8 +4,11 @@ description: This folder(task) runs the OCR extracts tables and paragraphs, tran
 #docker_pipes: [ 'doc_translator_a4b']
 
 ignore_docs:
-  mahmls-944.pdf: Ignore a table about questions
-  mahmls-957.pdf: Ignore a table about questions    
+  mahmls-944.pdf: A table about some question, un related
+  mahmls-957.pdf: A table about some question, un related
+
+# Ignore:
+# mahmls-432.pdf=2-8[3]: t101-h0-q0-a108 subq_zero, role_missing, role_incorrect, no_names: Correction
 
 output_dir: 'output'
 config_dir: 'conf'
@@ -44,8 +47,9 @@ pipeline:
 
   - name: info_reader
   - name: dashes_finder
-    
+
   - name: question_extractor2
 
-  - name: question_translator    
-    
+  - name: question_translator
+
+  - name: question_writer

@@ -1,5 +1,6 @@
 edits:
   - replaceStr pa22.wo181 <all> '(१)'
   - replaceStr pa22.wo223 <all> '(२)'
-  - replaceStr pa22.wo236 <all> '(३)'  
+  - replaceStr pa22.wo236 <all> '(३)'
+  - replaceStr pa19.wo213 <all> 'श्री'
 

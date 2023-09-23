@@ -7,6 +7,7 @@ import orgpedia  # noqa
 import info_reader
 import question_extractor
 import question_translator
+import question_writer
 
 
 def order_num(pdf_path):
@@ -29,11 +30,12 @@ if __name__ == "__main__":
         docs = viz.pipe_all(input_files)
 
         for doc in docs:
-            output_doc_path = output_path / (doc.pdf_name + ".doc.json")
-            doc.to_disk(output_doc_path)
+            output_doc_path = output_path / (doc.pdf_name + ".doc.json.gz")
+            #doc.to_disk(output_doc_path)
     elif input_path.suffix.lower() == ".pdf":
+        output_path = f'{str(output_path)}.gz' if output_path.suffix != '.gz' else output_path
         doc = viz(input_path)
-        doc.to_disk(output_path)
+        #doc.to_disk(output_path)
 
     elif input_path.suffix.lower() in (".list", ".lst"):
         print("processing list")
@@ -44,5 +46,5 @@ if __name__ == "__main__":
 
         docs = viz.pipe_all(pdf_files)
         for doc in docs:
-            output_doc_path = output_path / (doc.pdf_name + ".doc.json")
-            doc.to_disk(output_doc_path)
+            output_doc_path = output_path / (doc.pdf_name + ".doc.json.gz")
+            #doc.to_disk(output_doc_path)

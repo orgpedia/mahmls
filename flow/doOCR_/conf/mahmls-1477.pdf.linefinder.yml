@@ -39,3 +39,5 @@ edits:
 
   - replaceStr pa118.wo6 <all> '(१)'  
 
+  - newWord ':' pa14.wo211 pa14.wo180
+  - newWord ':' pa58.wo197 pa58.wo154

@@ -7,4 +7,17 @@ edits:
   - replaceStr pa4.wo124 <all> '८'
   - replaceStr pa8.wo4 <all> ') यवतमाळ'  
   - newWord '(१)' pa0.wo89  pa0.wo76
-  - newWord '(६)' pa3.wo23  pa3.wo10  
+  - newWord '(६)' pa3.wo23  pa3.wo10
+  
+  - newWord ':' pa7.wo363 pa7.wo371
+  - newWord ':' pa10.wo258 pa10.wo221
+  - newWord ':' pa16.wo62 pa16.wo4
+  - replaceStr pa17.wo241 <all> 'पुढील'
+  - newWord ':' pa27.wo69 pa27.wo27
+  - newWord ':' pa35.wo30 pa35.wo5
+
+
+  - replaceStr  pa16.wo120 <all> 'श्री नावनाही :'
+  - replaceStr  pa17.wo128 <all> 'श्री नावनाही :'
+  - replaceStr  pa37.wo154 <all> 'श्री नावनाही :'  
+  
