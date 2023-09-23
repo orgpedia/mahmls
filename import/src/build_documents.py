@@ -78,6 +78,10 @@ def get_document_infos(pdf_repo_paths, start_num):
                       '२७ डिसेंबर, २०२१': '27 December 2021',
                       '07.08.2007': '7 Aug 2007',
                       '७ मार्च, २०१७': '7 March 2017',
+                      'दिनांक ४ मार्च, २०२१ रोजीची तारांकित प्रश्नोत्तराची यादी': '4 March 2021',
+                      '८ मार्च 2021 यादी': '8 March 2021',
+                      'दिनांक ३ मार्च, २०२१ रोजीची यादी': '3 March 2021',
+                      'दिनांक २ मार्च, २०२१ रोजीची तारांकित प्रश्नोत्तराची यादी': '2 March 2021',
                       }
         
         file_name = rm_str(file_name.lower(), ['final', 'yadi', 'yaadi', 'starred', 'question', 'a.pdf', '.pdf', '_', '-assembly'])
@@ -91,11 +95,19 @@ def get_document_infos(pdf_repo_paths, start_num):
 
 
         if 'PDF2023' in pdf_path.parts:
-            d, _ = pdf_path.name.split('-')
-            dt = datetime.date(year=2023, month=3, day=int(d))
-            if d == '28':
-                dt = datetime.date(year=2023, month=2, day=28)
-            return dt
+            if 'BUDGET' in pdf_path.parts:
+                d, _ = pdf_path.name.split('-')
+                dt = datetime.date(year=2023, month=3, day=int(d))
+                if d == '28':
+                    dt = datetime.date(year=2023, month=2, day=28)
+                return dt
+            elif 'MONSOON' in pdf_path.parts:
+                d, _ = pdf_path.name.split('-')
+                dt = datetime.date(year=2023, month=7, day=int(d))
+                if int(d)  < 5:
+                    dt = datetime.date(year=2023, month=8, day=28)
+                return dt                
+
         
         dt, dt_err = find_date(file_name)
         if dt_err:
@@ -146,6 +158,61 @@ def get_document_infos(pdf_repo_paths, start_num):
             '2023': [('Budget', 125, 151), ('Monsoon', 152, 187)]
         }
 
+        def extract_list_num(file_name):
+            orig_file_name = file_name
+            file_name = rm_str(file_name.lower(), ['अंतिम ', 'अंमिम ', 'अंमित ', 'no ', 'no. ', 'final '])
+            #file_name = file_name.lower().replace('yaadi', 'yadi').replace('अंतिम ', '').replace('अंमिम ', '').replace('final ', '').replace('अंमित', '')
+            #file_name = file_name.replace('_', ' ').replace('  ', ' ').replace('no ', '').replace('no. ', '').replace('  ', ' ')
+            file_name = file_name.replace('yaadi', 'yadi').replace('_', ' ').replace('  ', ' ').replace('  ', ' ')
+
+            mr_dict = { 'पहिली यादी': 'yadi 1',
+                        'first yadi (final)': 'yadi 1',
+                        'दुसरी यादी': 'yadi 2',
+                        'तिसरी यादी': 'yadi 3',
+                        'तीसरी यादी': 'yadi 3',
+                        'चौथी यादी': 'yadi 4',
+                        'पाचवी यादी': 'yadi 5',
+                        'सहावी यादी': 'yadi 6',
+                        'सातवी यादी': 'yadi 7',
+                        'आठवी यादी': 'yadi 8',
+                        'नववी यादी': 'yadi 9',                        
+                        'दहावी यादी': 'yadi 10',
+                        'अकरावी यादी': 'yadi 11',
+                        'बारावी यादी': 'yadi 12',
+                        'yadi ६० yadi': 'yadi 60',
+                        'यादी क्रमांक १३९ अंतिम': 'yadi 139',
+                        'unstar-64 new': 'yadi 64',
+                       }
+
+            if 'विवरणपत्र' in file_name:
+                num = file_name.replace('विवरणपत्र ', '').strip()
+                num = num[1:].strip()
+                return 'annexure-{num[:-4]}'
+            
+            if file_name[:4] == 'hb 9':
+                # hb 991 (7).pdf
+                num = file_name[7:-4].strip('()')
+                return num
+
+            for (mr, en) in mr_dict.items():
+                file_name = file_name.replace(mr, en)
+
+            pattern = r'yadi\s(\d+)\D'
+            matches = re.findall(pattern, file_name)
+            
+            #assert len(matches) <= 1, orig_file_name
+            if len(matches) == 1:
+                return int(matches[0])
+            else:
+                pattern = r'(\d+).pdf'
+                matches = re.findall(pattern, file_name)
+                if len(matches) == 1:
+                    return int(matches[0])
+                else:
+                    print(f'TODO: {orig_file_name}->{file_name}')
+                    return None
+            
+
         def get_session(year, num):
             if year == '2015' and num > 58:
                 return '2016', 'Winter'
@@ -166,19 +233,21 @@ def get_document_infos(pdf_repo_paths, start_num):
         }
 
         url = f'http://mls.org.in/{quote("/".join(pdf_path.parts[5:]))}'
-        
+
+        list_num = None
         if pdf_path.name in mr_dict:
             year, list_num  = mr_dict[pdf_path.name]
-            return str(year), 'Winter', url
+            return str(year), 'Winter', url, list_num
 
         session = first((s for s, vals in sessions.items() if has_val(pdf_path, vals)), None)
         if not session:
             file_name = rm_str(pdf_path.name.lower(), ['%20', ' ', 'unstarred_question_yaadi_', '.pdf', 'ul_'])
-            num, year = file_name.split('of')
-            year, session = get_session(year, int(num))
+            list_num, year = file_name.split('of')
+            year, session = get_session(year, int(list_num))
         else:
+            list_num = extract_list_num(pdf_path.name)
             year = first((y for y in years if y.lower() in str(pdf_path)), None)
-        return year, session, url
+        return year, session, url, list_num
 
     def get_num_pages(doc_path):
         output = subprocess.check_output(
@@ -204,9 +273,9 @@ def get_document_infos(pdf_repo_paths, start_num):
         doc_info['house'] = pdf_path.parts[3]
         doc_info['doc_type'] = pdf_path.parts[4]
 
-        doc_info['num_pages'], doc_info['large_image_idxs'] = get_pdf_info(pdf_path)
-        if not doc_info['num_pages']:
-           continue
+        # doc_info['num_pages'], doc_info['large_image_idxs'] = get_pdf_info(pdf_path)
+        # if not doc_info['num_pages']:
+        #    continue
 
         if doc_info['doc_type'] == 'Proceedings':
             doc_info['session'], doc_info['year'], doc_info['url'] = get_proceedings_info(pdf_path)
@@ -217,7 +286,8 @@ def get_document_infos(pdf_repo_paths, start_num):
             doc_info['date'] = str(dt)
             
         elif doc_info['doc_type'] == 'UnstarredQuestions':
-            doc_info['year'], doc_info['session'], doc_info['url'] = get_unstarred_info(pdf_path)
+            di = doc_info
+            di['year'], di['session'], di['url'], di['list_num'] = get_unstarred_info(pdf_path)
             
         elif doc_info['doc_type'] == 'BriefReport':
             continue
@@ -261,6 +331,8 @@ def main():
     all_pdf_files = [get_repo_path(d.absolute(), repo_dir) for d in website_dir.glob('**/*.pdf')]
 
     new_pdf_files = [f for f in all_pdf_files if f not in documents_dict]
+
+    print(f'Processing new files: # {len(new_pdf_files)}')
 
     new_document_infos = get_document_infos(new_pdf_files, start_num)
     document_infos.extend(new_document_infos)
