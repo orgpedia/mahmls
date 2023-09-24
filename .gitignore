@@ -159,7 +159,7 @@ model
 
 # Don't add output, but add ocr.json.gz
 
-/flow/writeTxt_/output/*
+/flow/readPDF_/output/*
 /flow/doOCR_/output/*
 /flow/subFlows/translate_/output/*
 
