@@ -273,9 +273,9 @@ def get_document_infos(pdf_repo_paths, start_num):
         doc_info['house'] = pdf_path.parts[3]
         doc_info['doc_type'] = pdf_path.parts[4]
 
-        # doc_info['num_pages'], doc_info['large_image_idxs'] = get_pdf_info(pdf_path)
-        # if not doc_info['num_pages']:
-        #    continue
+        doc_info['num_pages'], doc_info['large_image_idxs'] = get_pdf_info(pdf_path)
+        if not doc_info['num_pages']:
+           continue
 
         if doc_info['doc_type'] == 'Proceedings':
             doc_info['session'], doc_info['year'], doc_info['url'] = get_proceedings_info(pdf_path)
