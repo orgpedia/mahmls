@@ -40,6 +40,7 @@ def export_document(mr_txt_file):
             for (f, v) in zip(Fields, en_field_vals):
                 question.setdefault(f, v)
             question['year'] = int(question['year'])
+            question['names'] = '-'.join(question['names'])
         
 
     mr_field_vals = get_info(qna_mr_file)
@@ -48,7 +49,8 @@ def export_document(mr_txt_file):
         for question in mr_questions:
             for (f, v) in zip(Fields, mr_field_vals):
                 question.setdefault(f, v)
-            question['year'] = int(question['year'])                
+            question['year'] = int(question['year'])
+            question['names'] = '-'.join(question['names'])            
     
     stub = ''
     if doc_type in ('StarredQuestions', 'UnstarredQuestions'):
@@ -103,36 +105,13 @@ def main():
     en_all_questions.sort(key=itemgetter('year'))
     for (year, year_questions) in groupby(en_all_questions, key=itemgetter('year')):
         year_questions = list(year_questions)
-        write_csv_file(f'{year}-questions_en.csv.gz', year_questions, en_fields, en_fields)
-        write_json_file(f'{year}-questions_en.json.gz', year_questions)
+        write_csv_file(f'{year}-question_answer_en.csv.gz', year_questions, en_fields, en_fields)
+        write_json_file(f'{year}-question_answer_en.json.gz', year_questions)
         
     mr_all_questions.sort(key=itemgetter('year'))
     for (year, year_questions) in groupby(mr_all_questions, key=itemgetter('year')):
         year_questions = list(year_questions)        
-        write_csv_file(f'{year}-questions_mr.csv.gz', year_questions, mr_fields, en_fields)
-        write_json_file(f'{year}-questions_mr.json.gz', year_questions)
-
-
-    # with open((ExportDir / 'questions_en.csv'), 'w') as questions_en_csv:
-    #     csv_writer = csv.DictWriter(questions_en_csv, fieldnames=en_fields)
-    #     csv_writer.writeheader()
-
-    #     rows = [ dict((f, q.get(f, '')) for f in en_fields) for q in en_all_questions]
-    #     csv_writer.writerows(rows)
-        
-
-    
-    # with open((ExportDir / 'questions_mr.csv'), 'w') as questions_mr_csv:
-    #     csv_writer = csv.DictWriter(questions_mr_csv, fieldnames=mr_fields)
-    #     csv_writer.writeheader()
-
-    #     rows = [ dict((f_mr, q.get(f_en, '')) for (f_en, f_mr) in zip(en_fields, mr_fields)) for q in mr_all_questions]
-    #     csv_writer.writerows(rows)
-        
-    # (ExportDir / 'questions_en.json').write_text(json.dumps(en_all_questions))
-    # (ExportDir / 'questions_mr.json').write_text(json.dumps(mr_all_questions))
-
-
-    
+        write_csv_file(f'{year}-question_answer_mr.csv.gz', year_questions, mr_fields, en_fields)
+        write_json_file(f'{year}-question_answer_mr.json.gz', year_questions)
 
 main()

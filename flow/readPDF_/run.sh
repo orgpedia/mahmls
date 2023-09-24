@@ -1,1 +1,1 @@
-poetry run python src/writeTxt.py input/mahmls-$1.pdf output/mahmls-$1.pdf.doc.json
+poetry run python src/readPDF.py input/mahmls-$1.pdf output/mahmls-$1.pdf.doc.json

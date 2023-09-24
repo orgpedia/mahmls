@@ -19,7 +19,7 @@ if __name__ == "__main__":
     input_path = Path(sys.argv[1])
     output_path = Path(sys.argv[2])
 
-    viz = docint.load("src/writeTxt.yml")
+    viz = docint.load("src/readPDF.yml")
 
     if input_path.is_dir():
         assert output_path.is_dir()
