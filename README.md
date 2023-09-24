@@ -19,10 +19,11 @@ documents published as PDFs on the Maharashtra Legislature Site.
 
 ## Accessing the data
 
-All the data is available in the (export/orgpedia_mahmls) folder and it contains the following directory/files
+All the data is available in the (export/orgpedia_mahmls/) folder and it contains the following directory/files
+
 | **Number** | **File Name**                                                                  | **Description**                                                                                                                                                                                                                             |
 | ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1          | Questions/question_answer_mr_2023.csv.gz                                       | The list of all the question and answers in Marathi for the year 2023. Also available in JSON format. Gzipped file is 2.5 MB. The Questions directory contains data for all the years from 2014 to 2023                                     |
+| 1          | [Questions/question_answer_mr_2023.csv.gz](export/orgpedia_mahmls/Questions/question_answer_mr_2023.csv.gz)                                       | The list of all the question and answers in Marathi for the year 2023. Also available in JSON format. Gzipped file is 2.5 MB. The Questions directory contains data for all the years from 2014 to 2023                                     |
 | 2          | question_answer_en.csv                                                         | The list of all the question and answers in English for the year 2023. Also available in JSON format. Gzipped file is 2.5 MB. The Questions directory contains data for all the years from 2014 to 2023                                     |
 | 3          | question_answer.info.md                                                        | The description of all the columns of the question_answer dataset.                                                                                                                                                                          |
 | 4          | StarredQuestions_docs/2023-Monsoon-Council-StarredQuestions-20230828.mr.txt.gz | The original document containing Starred questions from which the question and answers were extracted in Marathi as a text file. The last field in the file name is the date the Starred questions were discussed on the floor of the house |
