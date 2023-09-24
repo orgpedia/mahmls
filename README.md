@@ -14,7 +14,7 @@ documents published as PDFs on the Maharashtra Legislature Site.
 | ------- | ------------------------------ | ----------- |
 | 1       | Number of documents            |       1,570 |
 | 2       | Number of pages                |      74,462 |
-| 3       | Number of words                | 2,06,34,643 |
+| 3       | Number of words                |  20,634,643 |
 | 4       | Number of question and answers |      82,275 |
 
 ## Accessing the data
