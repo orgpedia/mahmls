@@ -79,6 +79,17 @@ def write_json_file(json_file_name, questions):
     with gzip.open((ExportDir / Path('Questions') / json_file_name), 'wb') as f:
         f.write(bytes(json.dumps(questions), encoding='utf-8'))
 
+def write_sample_csv_file(csv_file_name, questions, schema, fields):
+    with open(ExportDir / csv_file_name, 'w') as questions_csv:
+        csv_writer = csv.DictWriter(questions_csv, fieldnames=schema)
+        csv_writer.writeheader()
+        rows = [dict((s, q.get(k, '')) for (s, k) in zip(schema, fields)) for q in questions[:10]]
+        csv_writer.writerows(rows)
+
+def write_sample_json_file(json_file_name, questions):
+    with open((ExportDir / json_file_name), 'w') as f:
+        f.write(json.dumps(questions[:10], indent=2, ensure_ascii=False))
+
 def main():
     en_all_questions, mr_all_questions = [], []
     for doc_dir in sys.argv[1:]:
@@ -102,16 +113,22 @@ def main():
                  'सत्र', 'वर्ष', 'संकेत स्थळ', 'नाव', 'तारीख', 'यादी_क्रमांक']
 
     
-    en_all_questions.sort(key=itemgetter('year'))
+    en_all_questions.sort(key=lambda q: (q['year'], q['name']))
     for (year, year_questions) in groupby(en_all_questions, key=itemgetter('year')):
         year_questions = list(year_questions)
         write_csv_file(f'{year}-question_answer_en.csv.gz', year_questions, en_fields, en_fields)
         write_json_file(f'{year}-question_answer_en.json.gz', year_questions)
+
+    write_sample_csv_file('question_answer_en_sample.csv', en_all_questions, en_fields, en_fields)
+    write_sample_json_file('question_answer_en_sample.json', en_all_questions)    
         
-    mr_all_questions.sort(key=itemgetter('year'))
+    mr_all_questions.sort(key=lambda q: (q['year'], q['name']))    
     for (year, year_questions) in groupby(mr_all_questions, key=itemgetter('year')):
         year_questions = list(year_questions)        
         write_csv_file(f'{year}-question_answer_mr.csv.gz', year_questions, mr_fields, en_fields)
         write_json_file(f'{year}-question_answer_mr.json.gz', year_questions)
+
+    write_sample_csv_file('question_answer_mr_sample.csv', mr_all_questions, mr_fields, en_fields)
+    write_sample_json_file('question_answer_mr_sample.json', mr_all_questions)        
 
 main()
