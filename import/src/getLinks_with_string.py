@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-def find_urls_containing_string(url, search_string):
+def find_urls_containing_string(url, search_string, link_string):
     response = requests.get(url)
 
     if response.status_code != 200:
@@ -16,18 +16,23 @@ def find_urls_containing_string(url, search_string):
     matching_links = []
     for link in links:
         href = link.get('href', '')
-        # Make sure the link is an absolute URL
+        # Make sure the link is an absolute URL 
         absolute_href = urljoin(url, href)
-        if search_string in absolute_href:
+        if search_string and search_string in absolute_href:
+            matching_links.append(absolute_href)
+
+        # link_string लक्षवेधी
+        if link.contents and link_string and link_string in link.contents[0]:
             matching_links.append(absolute_href)
 
     return matching_links
 
 if __name__ == "__main__":
     url = input("Enter the URL to scrape: ")
-    search_string = input("Enter the string to search for in URLs: ")
+    search_string = input("Enter the string to search for in URLs(href): ")
+    link_string = input("Enter the string to search for in links(text): ")    
     
-    matching_links = find_urls_containing_string(url, search_string)
+    matching_links = find_urls_containing_string(url, search_string, link_string)
 
     if matching_links:
         print("\nURLs Containing the Search String:")

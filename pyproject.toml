@@ -1,77 +1,89 @@
-[tool.poetry]
+[project]
 name = "orgpedia-mahmls"
 version = "0.0.1"
 description = "Datapackage containing orders of Maharashtra Legislature Government of Maharashtra."
-authors = ["Orgpedia Foundation <orgpedia.foundation@gmail.com>"]
-license = "MIT"
+authors = [{ name = "Orgpedia Foundation", email = "orgpedia.foundation@gmail.com" }]
+requires-python = ">=3.10"
 readme = "README.md"
-keywords = ["information extraction", "data package", "government data"]
-classifiers=[
-    'Development Status :: 2 - Pre-Alpha',
-    'Intended Audience :: Developers',
-    'License :: OSI Approved :: MIT License',
-    'Natural Language :: English',
-    'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.9',
-    'Programming Language :: Python :: 3.10',
-    'Programming Language :: Python :: 3.11',
-    'Topic :: Scientific/Engineering :: Artificial Intelligence',
-    'Topic :: Scientific/Engineering :: Information Analysis',
-    'Topic :: Scientific/Engineering :: Visualization',
-    'Topic :: Scientific/Engineering :: Image Processing',
-    'Topic :: Scientific/Engineering :: Image Recognition',
+license = "MIT"
+keywords = [
+    "information extraction",
+    "data package",
+    "government data",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "pysbd>=0.3.4,<0.4",
+    "sentencepiece>=0.1.99,<0.2",
+    "indic-nlp-library",
+    "pyyaml>=6.0.2",
 ]
 
-packages = [ { include = "orgpedia_mahmls", from = "export" } ]
-include = [ "export/orgpedia_mahmls/*" ]
-
-[tool.poetry.urls]
-"homepage" = "https://www.orgpedia.in/"
-"repository" = "https://github.com/orgpedia/mahmls"
+[project.urls]
+homepage = "https://www.orgpedia.in/"
+repository = "https://github.com/orgpedia/mahmls"
 "data issues" = "https://github.com/orgpedia/mahmls/discussions"
 
-[tool.poetry.dependencies]
-python = "!=3.7.6,!=3.8.1,>3.7.1"
+[dependency-groups]
+dev = [
+    "google-cloud-storage>=2.9.0,<3",
+    "google-cloud-vision>=3.4.2,<4",
+    "google-cloud-translate>=2.0.1,<3",
+    "pdfplumber>=0.9.0,<0.10",
+    "black>=22.6.0,<23",
+    "ruff>=0.0.243,<0.0.244",
+]
+translate = [
+    "docint",
+    "indic-nlp-library",
+    "ctranslate2==3.9.0",
+    "sentencepiece>=0.1.99,<0.2",
+]
 
-# this is a datapackage should not have any dependency as we are publishing data
-# dependencies for running the flow are in group.dev.dependencies
-pysbd = "^0.3.4"
-sentencepiece = "^0.1.99"
-indic-nlp-library = {git = "https://github.com/orgpedia/indic_nlp_library-deva.git"}
+[tool.uv]
+default-groups = [
+    "dev",
+    "translate",
+]
 
-[tool.poetry.group.dev]
-optional = true
-
-[tool.poetry.group.dev.dependencies]
-#docint = { git = "https://github.com/mukundesh/docint.git" }
-#orgpedia = { git = "https://github.com/orgpedia/orgpedia.git" }
-
-google-cloud-storage = "^2.9.0"
-google-cloud-vision = "^3.4.2"
-google-cloud-translate = "^2.0.1"
-pdfplumber = "^0.9.0"
-
-
-black = "^22.6.0"
-ruff = "^0.0.243"
-#pre-commit = "^2.21.0" # version compatible with 3.7
-
-
-[tool.poetry.group.translate]
-optional = true
-
-[tool.poetry.group.translate.dependencies]
+[tool.uv.sources]
 docint = { git = "https://github.com/mukundesh/docint.git" }
+indic-nlp-library = { git = "https://github.com/orgpedia/indic_nlp_library-deva.git" }
 
-indic-nlp-library = {git = "https://github.com/orgpedia/indic_nlp_library-deva.git"}
-ctranslate2 = "3.9.0"
-sentencepiece = "^0.1.99"
+[tool.hatch.build.targets.sdist]
+include = [
+    "export/orgpedia_mahmls",
+    "export/orgpedia_mahmls/*",
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+    "export/orgpedia_mahmls",
+    "export/orgpedia_mahmls/*",
+]
+
+[tool.hatch.build.targets.wheel.sources]
+"export/orgpedia_mahmls" = "orgpedia_mahmls"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [tool.black]
 line-length = 100
