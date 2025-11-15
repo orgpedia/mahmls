@@ -1,0 +1,373 @@
+6729 Mumbadevi
+4555 Malad West
+3775 Mumbra Kalwa
+3254 Kalamnuri
+2860 Brahmapuri
+2393 Shahapur
+2349 Igatpuri
+2185 Shirdi
+2150 Dhule Rural
+2133 Murbad
+1960 Dharavi
+1960 Bandra West
+1914 Chandivali
+1800 Kagal
+1750 Tivsa
+1706 Islampur
+1669 Bhor
+1656 Guhagar
+1620 Koregaon
+1606 Panvel
+1574 Buldhana
+1561 Savner
+1528 Akole
+1479 Sillod
+1479 Karjat
+1398 Dahisar
+1351 Mohol
+1345 Kandivali East
+1341 Andheri West
+1312 Arvi
+1287 Latur City
+1261 Sangamner
+1243 Dhamangaon Railway
+1242 Nanded North
+1213 Pandharpur
+1193 Osmanabad
+1174 Nagpur West
+1151 Thane
+1143 Ambegaon
+1132 Kalyan East
+1112 Srigonda
+1106 Dindoshi
+1048 Paltan
+1037 Charkop
+1027 Malshiras
+1002 Hinganghat
+ 998 Latur Rural
+ 997 Wadala
+ 965 Chikhli
+ 953 Risod
+ 944 Worli
+ 935 Uran
+ 905 Warora
+ 894 Baglan
+ 886 Bhusawal
+ 874 Shirur
+ 872 Khadakwasla
+ 865 Hadapsar
+ 858 Bhokardan
+ 847 Vilepalje
+ 840 Airoli
+ 790 Hon.
+ 774 Kothrud
+ 766 Boisar
+ 763 Bhiwandi East
+ 763 Amravati
+ 756 Malegaon Central
+ 753 Sakoli
+ 745 Yeola
+ 742 Karad North
+ 742 Ashti
+ 741 Sion
+ 739 Kudal
+ 734 Indapur
+ 729 Ausa
+ 718 Vikhroli
+ 717 Kalina
+ 716 Ambernath
+ 703 Kalyan West
+ 697 Daund
+ 691 Shivdi
+ 687 Radhanagari
+ 676 Sakri
+ 676 Paranda
+ 676 Hatkanangale
+ 673 Vasai
+ 672 Pathri
+ 670 Khanapur
+ 668 Annasaheb
+ 667 Kurla
+ 665 Junnar
+ 665 Bhokar
+ 663 Mankhurd Shivajinagar
+ 652 Parner
+ 625 Nalasopara
+ 624 Khed Alandi
+ 619 Alibaug
+ 616 Nagpur South
+ 613 Parbhani
+ 599 Dahanu
+ 595 Solapur City Central
+ 590 Bandra East
+ 590 Achalpur
+ 588 Byculla
+ 584 Nashik West
+ 578 Deglur
+ 577 Shrivardhan
+ 577 Shahuwadi
+ 577 Pachora
+ 577 Kolhapur North
+ 572 Chandgad
+ 562 Chembur
+ 557 Nagpur North
+ 555 Kankavli
+ 550 Mulund
+ 544 Naigaon
+ 541 Sonawane
+ 540 Karad South
+ 523 Chopra
+ 521 Devlali
+ 520 Nagpur Central
+ 519 Shivajinagar
+ 510 Tasgaon
+ 508 Chalisgaon
+ 507 Rajapur
+ 506 Palus Kadegaon
+ 506 Dapoli
+ 505 Shirol
+ 501 Rajura
+ 485 Parvati
+ 483 Wadgaon Sheri
+ 480 Ulhasnagar
+ 479 Dindori
+ 476 Akola East
+ 475 Jintur
+ 473 Versova
+ 470 Daryapur
+ 461 Nandgaon
+ 458 Mahad
+ 457 Ahmedpur
+ 456 Solapur South
+ 449 Ramtek
+ 446 Sindkhed Raja
+ 446 Pen
+ 446 Chiplun
+ 444 Malkapur
+ 442 Basmat
+ 428 Magathane
+ 425 Malabar Hill
+ 422 NIFAD
+ 413 Ovala Majhiwada
+ 399 Mahim
+ 392 Arni
+ 384 Akola West
+ 383 Madha
+ 383 Bhandup West
+ 382 Nagpur South West
+ 382 Chinchwad
+ 376 Karveer
+ 374 Chandrapur
+ 367 Ichalkaranji
+ 363 Kalyan Gramin
+ 362 Jalgaon City
+ 356 Ralegaon
+ 352 Purandar
+ 349 Sinner
+ 348 Tumsar
+ 348 Jalna
+ 346 Tuljapur
+ 344 Ballarpur
+ 342 Raver
+ 342 Ghatkopar East
+ 339 Karanja
+ 339 Hingoli
+ 332 Umarkhed
+ 331 Loha
+ 324 Karjat Jamkhed
+ 323 Shrirampur
+ 323 Nanded South
+ 321 Muktainagar
+ 319 Amarner
+ 318 Morshi
+ 309 Newasa
+ 306 Ghatkopar West
+ 305 Anushakti Nagar
+ 297 Gangapur
+ 295 Borivali
+ 295 Bhiwandi Rural
+ 291 Amgaon
+ 289 Nagpur East
+ 288 Colaba
+ 287 Paithan
+ 285 Udgir
+ 278 Bhandara
+ 275 Maval
+ 273 Palghar
+ 268 Mira Bhayander
+ 268 Bhiwandi West
+ 266 Nashik Central
+ 265 Aurangabad East
+ 264 Beed
+ 263 Jalgaon Rural
+ 259 Kinwat
+ 256 Badnapur
+ 253 Srirampur
+ 249 Vile Parle
+ 249 Armoury
+ 247 Umarga
+ 247 Gadchiroli
+ 245 Khamgaon
+ 235 Balapur
+ 230 Murtizapur
+ 221 Sangole
+ 220 Chandwad
+ 213 Badnera
+ 207 Wani
+ 207 Chimur
+ 206 Kolhapur South
+ 190 Sangli
+ 189 Arjuni
+ 186 Shindkheda
+ 183 Tiroda
+ 179 Patan
+ 177 Ahmednagar City
+ 176 Belapur
+ 173 Jogeshwari East
+ 170 Cage
+ 169 Pimpri
+ 168 Pune Cantonment
+ 162 Mullud
+ 162 Hingna
+ 162 Akkalkuwa
+ 156 Yavatmal
+ 154 Shevgaon
+ 147 Gondia
+ 144 Nashik East
+ 143 Aurangabad Central
+ 143 Akkalkot
+ 142 Kej
+ 140 Katol
+ 135 Mehkar
+ 133 Kalyan Rural
+ 129 Dand
+ 128 Gangakhed
+ 127 Vaijapur
+ 127 Mukhed
+ 126 Rahuri
+ 121 Kalwan
+ 114 Navapur
+ 112 Kalvan
+ 112 Andheri East
+ 110 Dhule City
+ 107 Parli
+ 103 Kannada
+ 102 Aheri
+ 100 Shirala
+  94 Umred
+  94 Bhosari
+  89 Gevrai
+  85 Melghat
+  85 Majalgaon
+  84 Akot
+  76 Shahada
+  73 Erandol
+  71 Deoli
+  69 Solapur City North
+  69 Kopargaon
+  68 Barshi
+  65 Karmala
+  65 Jalgaon Jamod
+  59 Vikramgad
+  54 Nilanga
+  50 Kasbapeth
+  44 Miraj
+  42 Kamthi
+  39 Wardha
+  39 Shirpur
+  37 Shrigonda
+  34 Goregaon
+  32 Ballia
+  30 Niphad
+  28 Mumbra
+  23 Pusad
+  23 Aurangabad West
+  20 Karad
+  15 Partur
+  14 Washim
+  14 Abarnath
+  12 Akkalkuva
+  10 Satara
+   5 Shrigenda
+   5 East
+   4 Nevasa
+   4 Dombivli
+   4 Bandra East
+   3 Tevsa
+   3 Phulambri
+   3 Mumbradevi
+   3 Mubra
+   3 Kotol
+   3 Jalgaon
+   3 Idapur
+   3 Hadgaon
+   2 bana
+   2 Vadgaon City
+   2 Sayan
+   2 Resod
+   2 Palus
+   2 Kurli
+   2 Kolhapur
+   2 Iddanpur
+   2 Anushaktinagar
+   2 Akola
+   1 Valada
+   1 Thang
+   1 Thane City
+   1 Tasgave
+   1 South of Nagpur.
+   1 South Solapur.
+   1 Solapur City
+   1 Sinnar
+   1 Sindkheda
+   1 Shrivardha
+   1 Shringoda
+   1 Shivaji Nagar
+   1 Shirul
+   1 Shidkheda
+   1 Shegaon
+   1 Shapur
+   1 Sawantwadi
+   1 Sangola
+   1 Sahapur
+   1 Pune
+   1 Phaltan
+   1 Parada
+   1 Ovalamajivada
+   1 Nanded
+   1 Nagpur West.
+   1 Nagpur Nagpur Central
+   1 Nagpur
+   1 Murabal
+   1 Mumba Kalwa
+   1 Mohod
+   1 Khed Dapoli
+   1 Khed
+   1 Karla
+   1 Kandivali
+   1 Kalmanri
+   1 Kalamnuru
+   1 Kalamnoori
+   1 Igadpuri
+   1 Ichalkaranji
+   1 Hatkanangle
+   1 Ghansawangi
+   1 Faranda
+   1 Erdol
+   1 Dopoli
+   1 Dhanasvangi
+   1 Deuli
+   1 Daind
+   1 Chichwand
+   1 Charkop
+   1 Charkop Pt
+   1 Chandur Railway
+   1 Chadwad
+   1 Carveer
+   1 Badlapur
+   1 Avasa
+   1 Atomic Power City
+   1 Atomic Energy City
+   1 Armory
+   1 Anchalpur
+

@@ -1,0 +1,288 @@
+Akkalkuwa (ST)
+Shahada (ST)
+Nandurbar (ST)
+Navapur (ST)
+Sakri (ST)
+Dhule Rural
+Dhule City
+Sindkheda
+Shirpur (ST)
+Chopda (ST)
+Raver
+Bhusawal (SC)
+Jalgaon City
+Jalgaon Rural
+Amalner
+Erandol
+Chalisgaon
+Pachora
+Jamner
+Muktainagar
+Malkapur
+Buldhana
+Chikhali
+Sindkhed Raja
+Mehkar (SC)
+Khamgaon
+Jalgaon (Jamod)
+Akot
+Balapur
+Akola West
+Akola East
+Murtizapur (SC)
+Risod
+Washim (SC)
+Karanja
+Dhamangaon Railway
+Badnera
+Amravati
+Teosa
+Daryapur (SC)
+Melghat (ST)
+Achalpur
+Morshi
+Arvi
+Deoli
+Hinganghat
+Wardha
+Katol
+Savner
+Hingna
+Umred (SC)
+Nagpur South West
+Nagpur South
+Nagpur East
+Nagpur Central
+Nagpur West
+Nagpur North (SC)
+Kamthi
+Ramtek
+Tumsar
+Bhandara (SC)
+Sakoli
+Arjuni Morgaon (SC)
+Tirora
+Gondiya
+Amgaon (ST)
+Armori (ST)
+Gadchiroli (ST)
+Aheri (ST)
+Rajura
+Chandrapur (SC)
+Ballarpur
+Bramhapuri
+Chimur
+Warora
+Wani
+Ralegaon (ST)
+Yavatmal
+Digras
+Arni (ST)
+Pusad
+Umarkhed (SC)
+Kinwat
+Hadgaon
+Bhokar
+Nanded North
+Nanded South
+Loha
+Naigaon
+Deglur (SC)
+Mukhed
+Basmath
+Kalamnuri
+Hingoli
+Jintur
+Parbhani
+Gangakhed
+Pathri
+Partur
+Ghansawangi
+Jalna
+Badnapur (SC)
+Bhokardan
+Sillod
+Kannad
+Phulambri
+Aurangabad Central
+Aurangabad West (SC)
+Aurangabad East
+Paithan
+Gangapur
+Vaijapur
+Nandgaon
+Malegaon Central
+Malegaon Outer
+Baglan (ST)
+Kalwan (ST)
+Chandwad
+Yevla
+Sinnar
+Niphad
+Dindori (ST)
+Nashik East
+Nashik Central
+Nashik West
+Deolali (SC)
+Igatpuri (ST)
+Dahanu (ST)
+Vikramgad (ST)
+Palghar (ST)
+Boisar (ST)
+Nalasopara
+Vasai
+Bhiwandi Rural (ST)
+Shahapur (ST)
+Bhiwandi West
+Bhiwandi East
+Kalyan West
+Murbad
+Ambernath (SC)
+Ulhasnagar
+Kalyan East
+Dombivli
+Kalyan Rural
+Mira Bhayandar
+Ovala-Majiwada
+Kopri-Pachpakhadi
+Thane
+Mumbra-Kalwa
+Airoli
+Belapur
+Borivali
+Dahisar
+Magathane
+Mulund
+Vikhroli
+Bhandup West
+Jogeshwari East
+Dindoshi
+Kandivali East
+Charkop
+Malad West
+Goregaon
+Versova
+Andheri West
+Andheri East
+Vile Parle
+Chandivali
+Ghatkopar West
+Ghatkopar East
+Mankhurd Shivaji Nagar
+Anushakti Nagar
+Chembur
+Kurla(SC)
+Kalina
+Vandre East
+Vandre West
+Dharavi (SC)
+Sion Koliwada
+Wadala
+Mahim
+Worli
+Shivadi
+Byculla
+Malabar Hill
+Mumbadevi
+Colaba
+Panvel
+Karjat
+Uran
+Pen
+Alibag
+Shrivardhan
+Mahad
+Junnar
+Ambegaon
+Khed Alandi
+Shirur
+Daund
+Indapur
+Baramati
+Purandar
+Bhor
+Maval
+Chinchwad
+Pimpri (SC)
+Bhosari
+Vadgaon Sheri
+Shivajinagar
+Kothrud
+Khadakwasala
+Parvati
+Hadapsar
+Pune Cantonment
+Kasba Peth
+Akole (ST)
+Sangamner
+Shirdi
+Kopargaon
+Shrirampur (SC)
+Nevasa
+Shevgaon
+Rahuri
+Parner
+Ahmednagar City
+Shrigonda
+Karjat Jamkhed
+Georai(SC)
+Majalgaon
+Beed
+Ashti
+Kaij (SC)
+Parli
+Latur Rural
+Latur City
+Ahmadpur
+Udgir (SC)
+Nilanga
+Ausa
+Umarga (SC)
+Tuljapur
+Osmanabad
+Paranda
+Karmala
+Madha
+Barshi
+Mohol (SC)
+Solapur City North
+Solapur City Central
+Akkalkot
+Solapur South
+Pandharpur
+Sangola
+Malshiras (SC)
+Phaltan (SC)
+Wai
+Koregaon
+Man
+Karad North
+Karad South
+Patan
+Satara
+Dapoli
+Guhagar
+Chiplun
+Ratnagiri
+Rajapur
+Kankavli
+Kudal
+Sawantwadi
+Chandgad
+Radhanagari
+Kagal
+Kolhapur South
+Karvir
+Kolhapur North
+Shahuwadi
+Hatkanangle (SC)
+Ichalkaranji
+Shirol
+Miraj (SC)
+Sangli
+Islampur
+Shirala
+Palus-Kadegaon
+Khanapur
+Tasgaon-Kavathe Mahankal
+Jat

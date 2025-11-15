@@ -1,0 +1,865 @@
+assembly_contituencies:
+  - name: Achalpur
+    alias: []
+
+  - name: Aheri
+    alias: [ 'Aheri (ST)']
+
+  - name: Ahmadpur
+    alias: [AHMEDPUR]
+
+  - name: Ahmednagar City
+    alias: []
+
+  - name: Airoli
+    alias: []
+
+  - name: Akkalkot
+    alias: []
+
+  - name: Akkalkuwa
+    alias: ['Akkalkuwa (ST)']
+
+
+  - name: Akola East
+    alias: []
+
+  - name: Akola West
+    alias: ['AAKOLA WEST']
+
+  - name: Akole
+    alias: ['Akole (ST)']
+
+  - name: Akot
+    alias: []
+
+  - name: Alibag
+    alias: []
+
+  - name: Amalner
+    alias: []
+
+  - name: Ambegaon
+    alias: []
+
+  - name: Ambernath
+    alias: ['Ambernath (SC)', 'AMBARNATH (SC)']
+    
+  - name: Amgaon
+    alias: ['Amgaon (ST)']
+
+  - name: Amravati
+    alias: ['AMRAWATI']
+
+  - name: Andheri East
+    alias: []
+
+  - name: Andheri West
+    alias: []
+
+  - name: Anushakti Nagar
+    alias: []
+
+  - name: Arjuni Morgaon
+    alias: ['Arjuni Morgaon (SC)', 'ARJUNI-MORGAON']
+
+  - name: Armori
+    alias: ['Armori (ST)']
+
+  - name: Arni
+    alias: ['Arni (ST)']
+
+  - name: Arvi
+    alias: []
+
+  - name: Ashti
+    alias: []
+
+  - name: Aurangabad Central
+    alias: ['AURANGABAD (CENTRAL)']
+
+  - name: Aurangabad East
+    alias: ['AURANGABAD (EAST)', 'AURANGBAD (EAST)']
+
+  - name: Aurangabad West
+    alias: ['Aurangabad West (SC)', 'AURANGABAD (WEST) (SC)']
+
+  - name: Ausa
+    alias: []
+
+  - name: Badnapur
+    alias: ['Badnapur (SC)']
+
+
+  - name: Badnera
+    alias: []
+
+  - name: Baglan
+    alias: ['Baglan (ST)']
+
+  - name: Balapur
+    alias: []
+
+  - name: Ballarpur
+    alias: []
+
+  - name: Baramati
+    alias: []
+
+  - name: Barshi
+    alias: []
+
+  - name: Basmath
+    alias: []
+
+  - name: Beed
+    alias: []
+
+  - name: Belapur
+    alias: []
+
+  - name: Bhandara
+    alias: ['Bhandara (SC)']
+
+  - name: Bhandup West
+    alias: []
+
+  - name: Bhiwandi East
+    alias: []
+
+  - name: Bhiwandi Rural
+    alias: ['Bhiwandi Rural (ST)']
+
+  - name: Bhiwandi West
+    alias: []
+
+  - name: Bhokar
+    alias: []
+
+  - name: Bhokardan
+    alias: []
+
+  - name: Bhor
+    alias: []
+
+  - name: Bhosari
+    alias: []
+
+  - name: Bhusawal
+    alias: ['Bhusawal (SC)']
+
+  - name: Boisar
+    alias: ['Boisar (ST)']
+
+  - name: Borivali
+    alias: []
+
+  - name: Brahmapuri
+    alias: ['Bramhapuri']
+
+  - name: Buldhana
+    alias: []
+
+  - name: Byculla
+    alias: []
+
+  - name: Chalisgaon
+    alias: []
+
+  - name: Chandgad
+    alias: []
+
+  - name: Chandivali
+    alias: []
+
+  - name: Chandrapur
+    alias: ['Chandrapur (SC)']
+
+  - name: Chandvad
+    alias: ['Chandwad']
+
+  - name: Charkop
+    alias: []
+
+  - name: Chembur
+    alias: []
+
+  - name: Chikhali
+    alias: ['Chikhli']
+
+  - name: Chimur
+    alias: []
+
+  - name: Chinchwad
+    alias: []
+
+  - name: Chiplun
+    alias: []
+
+  - name: Chopda
+    alias: ['Chopda (ST)']
+
+  - name: Colaba
+    alias: []
+
+  - name: Dahanu
+    alias: ['Dahanu (ST)']
+
+  - name: Dahisar
+    alias: [DHAISAR]
+
+  - name: Dapoli
+    alias: []
+
+  - name: Daryapur
+    alias: ['Daryapur (SC)']
+
+  - name: Daund
+    alias: []
+
+  - name: Deglur
+    alias: ['Deglur (SC)']
+
+  - name: Deoli
+    alias: []
+
+  - name: Devlali
+    alias: ['Deolali (SC)']
+
+  - name: Dhamangaon Railway
+    alias: ['Dhamamgaon Railway']
+
+  - name: Dharavi
+    alias: ['Dharavi (SC)']
+
+  - name: Dharashiv
+    alias: ['Osmanabad']
+
+  - name: Dhule City
+    alias: []
+
+  - name: Dhule Rural
+    alias: []
+
+  - name: Digras
+    alias: []
+
+  - name: Dindori
+    alias: ['Dindori (ST)']
+
+  - name: Dindoshi
+    alias: []
+
+  - name: Dombivali
+    alias: ['Dombivli']
+ 
+  - name: Erandol
+    alias: []
+
+  - name: Gadchiroli
+    alias: ['Gadchiroli (ST)']
+
+  - name: Gangakhed
+    alias: []
+
+  - name: Gangapur
+    alias: []
+
+  - name: Georai
+    alias: ['Georai(SC)']
+
+  - name: Ghansawangi
+    alias: [GANSAVANGI]
+
+  - name: Ghatkopar East
+    alias: []
+
+  - name: Ghatkopar West
+    alias: []
+
+  - name: Gondiya
+    alias: [GONDIA]
+
+  - name: Goregaon
+    alias: []
+
+  - name: Guhagar
+    alias: []
+
+  - name: Hadapsar
+    alias: []
+
+  - name: Hadgaon
+    alias: []
+
+  - name: Hatkanangale
+    alias: [ 'Hatkanangle (SC)', HATKANANGLE ]
+
+  - name: Hinganghat
+    alias: []
+
+  - name: Hingna
+    alias: []
+
+  - name: Hingoli
+    alias: []
+
+  - name: Ichalkaranji
+    alias: []
+
+  - name: Igatpuri
+    alias: ['Igatpuri (ST)']
+
+  - name: Indapur
+    alias: []
+
+  - name: Islampur
+    alias: []
+
+  - name: Jalgaon (Jamod)
+    alias: []
+
+  - name: Jalgaon City
+    alias: []
+
+  - name: Jalgaon Rural
+    alias: []
+
+  - name: Jalna
+    alias: []
+
+  - name: Jamner
+    alias: []
+
+  - name: Jat
+    alias: []
+
+  - name: Jintur
+    alias: []
+
+  - name: Jogeshwari East
+    alias: []
+
+  - name: Junnar
+    alias: []
+
+  - name: Kagal
+    alias: []
+
+  - name: Kaij
+    alias: ['Kaij (SC)']
+
+  - name: Kalamnuri
+    alias: []
+
+  - name: Kalina
+    alias: []
+
+  - name: Kalwan
+    alias: [ 'Kalwan (ST)']
+
+  - name: Kalyan East
+    alias: []
+
+  - name: Kalyan Rural
+    alias: []
+
+  - name: Kalyan West
+    alias: []
+
+  - name: Kamthi
+    alias: []
+
+  - name: Kandivali East
+    alias: []
+
+  - name: Kankavli
+    alias: []
+
+  - name: Kannad
+    alias: []
+
+  - name: Karad North
+    alias: []
+
+  - name: Karad South
+    alias: []
+
+  - name: Karanja
+    alias: []
+
+  - name: Karjat
+    alias: []
+
+  - name: Karjat Jamkhed
+    alias: []
+
+  - name: Karmala
+    alias: []
+
+  - name: Karvir
+    alias: []
+
+  - name: Kasba Peth
+    alias: []
+
+  - name: Katol
+    alias: []
+
+  - name: Khadakwasala
+    alias: ['Khadakwasla']
+
+  - name: Khamgaon
+    alias: []
+
+  - name: Khanapur
+    alias: [KHANPUR]
+
+  - name: Khed Alandi
+    alias: []
+
+  - name: Kinwat
+    alias: []
+
+  - name: Kolhapur North
+    alias: []
+
+  - name: Kolhapur South
+    alias: []
+
+  - name: Kopargaon
+    alias: []
+
+  - name: Kopri-Pachpakhadi
+    alias: []
+
+  - name: Koregaon
+    alias: []
+
+  - name: Kothrud
+    alias: []
+
+  - name: Kudal
+    alias: []
+
+  - name: Kurla
+    alias: ['Kurla(SC)', 'KURLA (SC)']
+
+  - name: Latur City
+    alias: []
+
+  - name: Latur Rural
+    alias: []
+
+  - name: Loha
+    alias: []
+
+  - name: Madha
+    alias: []
+
+  - name: Magathane
+    alias: []
+
+  - name: Mahad
+    alias: []
+
+  - name: Mahim
+    alias: []
+
+  - name: Majalgaon
+    alias: []
+
+  - name: Malabar Hill
+    alias: []
+
+  - name: Malad West
+    alias: []
+
+  - name: Malegaon Central
+    alias: ['MALEGAON (CENTRAL)']
+
+  - name: Malegaon Outer
+    alias: ['MALEGAON (OUTER)']
+
+  - name: Malkapur
+    alias: []
+
+  - name: Malsiras
+    alias: ['Malshiras (SC)', MALSHIRAS]
+
+  - name: Man
+    alias: []
+
+  - name: Mankhurd Shivaji Nagar
+    alias: ['MANKHURD SHIVAJINAGAR']
+
+  - name: Maval
+    alias: []
+
+  - name: Mehkar
+    alias: ['Mehkar (SC)']
+
+  - name: Melghat
+    alias: ['Melghat (ST)']
+
+  - name: Mira Bhayandar
+    alias: ['MEERA BHAYANDAR']
+
+  - name: Miraj
+    alias: ['Miraj (SC)']
+
+  - name: Mohol
+    alias: ['Mohol (SC)']
+
+  - name: Morshi
+    alias: []
+
+  - name: Mukhed
+    alias: []
+
+  - name: Muktainagar
+    alias: []
+
+  - name: Mulund
+    alias: []
+
+  - name: Mumbadevi
+    alias: ['MUMBA DEVI']
+
+  - name: Mumbra-Kalwa
+    alias: []
+
+  - name: Murbad
+    alias: []
+
+  - name: Murtizapur
+    alias: [ 'Murtizapur (SC)', MURTIJAPUR]
+
+  - name: Nagpur Central
+    alias: []
+
+  - name: Nagpur East
+    alias: []
+
+  - name: Nagpur North
+    alias: [ 'Nagpur North (SC)']
+
+  - name: Nagpur South
+    alias: []
+
+  - name: Nagpur South West
+    alias: []
+
+  - name: Nagpur West
+    alias: []
+
+  - name: Naigaon
+    alias: []
+
+  - name: Nalasopara
+    alias: []
+
+  - name: Nanded North
+    alias: []
+
+  - name: Nanded South
+    alias: []
+
+  - name: Nandgaon
+    alias: []
+
+  - name: Nandurbar
+    alias: [ 'Nandurbar (ST)']
+
+  - name: Nashik Central
+    alias: ['NASHIK (CENTRAL)']
+
+  - name: Nashik East
+    alias: []
+
+  - name: Nashik West
+    alias: []
+
+  - name: Navapur
+    alias: [ 'Navapur (ST)', 'NAWAPUR (ST)', 'NAWAPUR']
+
+  - name: Nevasa
+    alias: []
+
+  - name: Nilanga
+    alias: []
+
+  - name: Niphad
+    alias: []
+
+  - name: Ovala-Majiwada
+    alias: ['OVALA - MAJIWADA', 'OVALA MAJIWADA']
+
+  - name: Pachora
+    alias: []
+
+  - name: Paithan
+    alias: []
+
+  - name: Palghar
+    alias: [ 'Palghar (ST)']
+
+  - name: Palus-Kadegaon
+    alias: []
+
+  - name: Pandharpur
+    alias: []
+
+  - name: Panvel
+    alias: []
+
+  - name: Paranda
+    alias: []
+
+  - name: Parbhani
+    alias: []
+
+  - name: Parli
+    alias: []
+
+  - name: Parner
+    alias: []
+
+  - name: Partur
+    alias: []
+
+  - name: Parvati
+    alias: []
+
+  - name: Patan
+    alias: []
+
+  - name: Pathri
+    alias: []
+
+  - name: Pen
+    alias: []
+
+  - name: Phaltan
+    alias: [ 'Phaltan (SC)']
+
+  - name: Phulambri
+    alias: ['PHOLAMBARI']
+
+  - name: Pimpri
+    alias: [ 'Pimpri (SC)']
+
+  - name: Pune Cantonment
+    alias: ['PUNE CANTONMENT (SC)']
+
+  - name: Purandar
+    alias: []
+
+  - name: Pusad
+    alias: []
+
+  - name: Radhanagari
+    alias: []
+
+  - name: Rahuri
+    alias: []
+
+  - name: Rajapur
+    alias: []
+
+  - name: Rajura
+    alias: []
+
+  - name: Ralegaon
+    alias: [ 'Ralegaon (ST)']
+
+  - name: Ramtek
+    alias: []
+
+  - name: Ratnagiri
+    alias: []
+
+  - name: Raver
+    alias: []
+
+  - name: Risod
+    alias: []
+
+  - name: Sakoli
+    alias: []
+
+  - name: Sakri
+    alias: [ 'Sakri (ST)']
+
+  - name: Sangamner
+    alias: ['SANGMNER']
+
+  - name: Sangli
+    alias: []
+
+  - name: Sangola
+    alias: [SANGOLE]
+
+  - name: Satara
+    alias: []
+
+  - name: Savner
+    alias: []
+
+  - name: Sawantwadi
+    alias: []
+
+  - name: Shahada
+    alias: [ 'Shahada (ST)']
+
+  - name: Shahapur
+    alias: [ 'Shahapur (ST)']
+
+  - name: Shahuwadi
+    alias: []
+
+  - name: Shevgaon
+    alias: []
+
+  - name: Shirala
+    alias: []
+
+  - name: Shirdi
+    alias: []
+
+  - name: Shirol
+    alias: []
+
+  - name: Shirpur
+    alias: [ 'Shirpur (ST)']
+
+  - name: Shirur
+    alias: []
+
+  - name: Shivadi
+    alias: []
+
+  - name: Shivajinagar
+    alias: []
+
+  - name: Shrigonda
+    alias: []
+
+  - name: Shrirampur
+    alias: [ 'Shrirampur (SC)']
+
+  - name: Shrivardhan
+    alias: []
+
+  - name: Sillod
+    alias: []
+
+  - name: Sindkhed Raja
+    alias: ['SINDHKHED RAJA']
+
+  - name: Sindkheda
+    alias: [SINDAKHEDA, SINDHKHEDA]
+
+  - name: Sinnar
+    alias: []
+
+  - name: Sion Koliwada
+    alias: []
+
+  - name: Solapur City Central
+    alias: []
+
+  - name: Solapur City North
+    alias: []
+
+  - name: Solapur South
+    alias: []
+
+  - name: Tasgaon-Kavathe Mahankal
+    alias: ['TASGAON - KAVATHE MAHANKAL']
+
+  - name: Teosa
+    alias: []
+
+  - name: Thane
+    alias: []
+
+  - name: Tirora
+    alias: []
+
+  - name: Tuljapur
+    alias: []
+
+  - name: Tumsar
+    alias: []
+
+  - name: Udgir
+    alias: [ 'Udgir (SC)']
+
+  - name: Ulhasnagar
+    alias: ['ULHAS NAGAR']
+
+  - name: Umarga
+    alias: ['Umarga (SC)', 'OMERGA (SC)']
+
+  - name: Umarkhed
+    alias: ['Umarkhed (SC)', 'UMARKHED (ST)']
+
+  - name: Umred
+    alias: ['Umred (SC)']
+  - name: Uran
+    alias: []
+
+  - name: Vadgaon Sheri
+    alias: ['VADGAOL SHERI']
+
+  - name: Vaijapur
+    alias: []
+
+  - name: Vandre East
+    alias: []
+
+  - name: Vandre West
+    alias: []
+
+  - name: Vasai
+    alias: []
+
+  - name: Versova
+    alias: ['VARSOVA']
+
+  - name: Vikhroli
+    alias: []
+
+  - name: Vikramgad
+    alias: ['Vikramgad (ST)', 'VEKRAMGRTH (ST)']
+
+  - name: Vile Parle
+    alias: []
+
+  - name: Wadala
+    alias: []
+
+  - name: Wai
+    alias: []
+
+  - name: Wani
+    alias: []
+
+  - name: Wardha
+    alias: []
+
+  - name: Warora
+    alias: []
+
+  - name: Washim
+    alias: [ 'Washim (SC)']
+    
+  - name: Worli
+    alias: []
+
+  - name: Yavatmal
+    alias: []
+
+  - name: Yevla
+    alias: ['Yewla']
