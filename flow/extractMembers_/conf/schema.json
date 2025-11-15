@@ -1,0 +1,194 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@language": "en",
+    "name": {
+      "@id": "http://schema.org/name",
+      "@container": "@language"
+    },
+    "jobTitle": {
+      "@id": "http://schema.org/jobTitle",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "http://schema.org/description",
+      "@container": "@language"
+    },
+    "constituency": {
+      "@id": "http://schema.org/constituency",
+      "@container": "@language"
+    },
+    "partyAffiliation": {
+      "@id": "http://schema.org/partyAffiliation",
+      "@container": "@language"
+    },
+    "termStartDate": {
+      "@id": "http://schema.org/termStartDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "termEndDate": {
+      "@id": "http://schema.org/termEndDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "socialMedia": {
+      "@id": "http://schema.org/socialMedia",
+      "@type": "@id"
+    },
+    "wikidataID": {
+      "@id": "http://schema.org/wikidataID",
+      "@type": "@id"
+    },
+    "image": {
+      "@id": "http://schema.org/image",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": {
+        "en": "John Doe",
+        "hi": "जॉन डो"
+      },
+      "jobTitle": {
+        "en": "Legislator",
+        "hi": "विधायक"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main St",
+        "addressLocality": "Cityville",
+        "addressRegion": "CA",
+        "postalCode": "12345",
+        "addressCountry": "USA"
+      },
+      "email": "john.doe@example.com",
+      "telephone": "+1-555-555-5555",
+      "memberOf": {
+        "@type": "Organization",
+        "name": {
+          "en": "City Legislature",
+          "hi": "सिटी विधायिका"
+        }
+      },
+      "birthDate": "1970-01-01",
+      "constituency": {
+        "en": "Cityville Constituency",
+        "hi": "सिटीविल निर्वाचन क्षेत्र"
+      },
+      "house": {
+        "@type": "GovernmentOrganization",
+        "name": {
+          "en": "City Council",
+          "hi": "सिटी परिषद"
+        }
+      },
+      "pastTenures": [
+        {
+          "@type": "LegislativeTerm",
+          "startDate": "2016-01-01",
+          "endDate": "2019-12-31"
+        },
+        {
+          "@type": "LegislativeTerm",
+          "startDate": "2012-01-01",
+          "endDate": "2015-12-31"
+        }
+      ],
+      "electionResults": {
+        "@type": "VoteAction",
+        "votes": {
+          "@type": "VoteCount",
+          "votesFor": 5000,
+          "votesTotal": 10000
+        }
+      },
+      "socialMedia": [
+        {
+          "@type": "SocialMediaPosting",
+          "name": "Twitter",
+          "url": "https://twitter.com/johndoe"
+        },
+        {
+          "@type": "SocialMediaPosting",
+          "name": "Facebook",
+          "url": "https://facebook.com/johndoe"
+        }
+      ],
+      "wikidataID": "https://www.wikidata.org/wiki/Q123456",
+      "image": "https://example.com/johndoe.jpg"
+    },
+    {
+      "@type": "Person",
+      "name": {
+        "en": "Jane Smith",
+        "hi": "जेन स्मिथ"
+      },
+      "jobTitle": {
+        "en": "Legislator",
+        "hi": "विधायक"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "456 Oak St",
+        "addressLocality": "Townsville",
+        "addressRegion": "NY",
+        "postalCode": "67890",
+        "addressCountry": "USA"
+      },
+      "email": "jane.smith@example.com",
+      "telephone": "+1-555-555-5556",
+      "memberOf": {
+        "@type": "Organization",
+        "name": {
+          "en": "Town Legislature",
+          "hi": "टाउन विधायिका"
+        }
+      },
+      "birthDate": "1985-05-15",
+      "constituency": {
+        "en": "Townsville Constituency",
+        "hi": "टाउन्सविल निर्वाचन क्षेत्र"
+      },
+      "house": {
+        "@type": "GovernmentOrganization",
+        "name": {
+      "en": "Town Council",
+      "hi": "टाउन परिषद"
+    },
+    "pastTenures": [
+      {
+        "@type": "LegislativeTerm",
+        "startDate": "2018-01-01",
+        "endDate": "2021-12-31"
+      },
+      {
+        "@type": "LegislativeTerm",
+        "startDate": "2014-01-01",
+        "endDate": "2017-12-31"
+      }
+    ],
+    "electionResults": {
+      "@type": "VoteAction",
+      "votes": {
+        "@type": "VoteCount",
+        "votesFor": 7000,
+        "votesTotal": 10000
+      }
+    },
+    "socialMedia": [
+      {
+        "@type": "SocialMediaPosting",
+        "name": "Twitter",
+        "url": "https://twitter.com/janesmith"
+      },
+      {
+        "@type": "SocialMediaPosting",
+        "name": "Facebook",
+        "url": "https://facebook.com/janesmith"
+      }
+    ],
+    "wikidataID": "https://www.wikidata.org/wiki/Q789123",
+    "image": "https://example.com/janesmith.jpg"
+  }
+]
