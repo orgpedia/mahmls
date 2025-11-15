@@ -10,7 +10,7 @@ from more_itertools import partition
 from docint.vision import Vision
 NumDashes = 3
 Sections = ['title', 'header', 'question', 'answer']
-Saluts = ('श्री', 'श्रीमती', 'डॉ', 'प्रा.', 'अॅड', 'ॲड', 'ॲङ', 'कुमारी')
+Saluts = ('श्री', 'श्रीमती', 'डॉ', 'प्रा.', 'अॅड', 'ॲड', 'ॲङ', 'कुमारी', 'आर्कि')
 @Vision.factory(
     "question_extractor",
     default_config={
