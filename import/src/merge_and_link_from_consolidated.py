@@ -34,7 +34,7 @@ def create_soft_link(source_path, target_dir, target_name):
         return False
 
     target_name = Path(target_name)
-    
+
     # Create the soft link if it doesn't already exist
     if not target_name.exists():
         try:
@@ -52,7 +52,7 @@ def create_soft_link(source_path, target_dir, target_name):
 def merge_and_link(todos_file, documents_file, base_dir):
     """
     Merge todos into documents and create soft links.
-    
+
     Args:
         todos_file: Path to consolidated_todos.json
         documents_file: Path to documents.json
@@ -61,26 +61,26 @@ def merge_and_link(todos_file, documents_file, base_dir):
     # Read the consolidated todos
     with todos_file.open('r', encoding='utf-8') as f:
         todos = json.load(f)
-    
+
     # Read the existing documents
     with documents_file.open('r', encoding='utf-8') as f:
         documents = json.load(f)
-    
+
     # Create a set of existing document names to avoid duplicates
     existing_names = {doc.get('name') for doc in documents}
-    
+
     # Process each todo item
     added_count = 0
     linked_count = 0
 
     target_dir = base_dir / 'import' / 'documents'
-    
+
     for todo in todos:
         # Skip if this document is already in documents.json
         if todo.get('name') in existing_names:
             print(f"Skipping duplicate document: {todo.get('name')}")
             continue
-        
+
         # Fix repo_path if needed
         repo_path = todo.get('repo_path', '')
         assert repo_path.startswith('/import')
@@ -95,11 +95,11 @@ def merge_and_link(todos_file, documents_file, base_dir):
             documents.append(todo)
             added_count += 1
         existing_names.add(todo.get('name'))
-    
+
     # Write the updated documents back to the file
-    with documents_file.open('w', encoding='utf-8') as f:
-        json.dump(documents, f, indent=2, default=json_serializer)
-       
+    #with documents_file.open('w', encoding='utf-8') as f:
+    #    json.dump(documents, f, indent=2, default=json_serializer)
+
     print(f"Added {added_count} documents to {documents_file}")
     print(f"Created {linked_count} soft links in import/documents")
 
@@ -112,23 +112,26 @@ def main():
         todos_file = "consolidated_todos.json"
     else:
         todos_file = sys.argv[1]
-    
+
     # Get the base directory
-    base_dir = Path(__file__).parent.absolute()
-    
+    base_dir = Path(__file__).parent.parent.parent.absolute()
+
     # Set paths
     todos_path = base_dir / todos_file
     documents_path = base_dir / "import" / "documents" / "documents.json"
-    
+
+    import pdb
+    pdb.set_trace()
+
     # Check if files exist
     if not todos_path.exists():
         print(f"Error: {todos_path} does not exist")
         return 1
-    
+
     if not documents_path.exists():
         print(f"Error: {documents_path} does not exist")
         return 1
-    
+
     # Run the merge and link process
     merge_and_link(todos_path, documents_path, base_dir)
     return 0
