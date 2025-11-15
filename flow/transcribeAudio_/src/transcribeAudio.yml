@@ -1,0 +1,21 @@
+description: This folder(task) runs transcribes the audio file and identifies the speakers (diarization)
+
+#docker_pipes: [ 'doc_translator_a4b']
+
+input_dir: 'input'
+output_dir: 'output'
+config_dir: 'conf'
+output_stub: 'doc'
+read_cache: False
+
+pipeline:
+  - name: RemoveIntervals
+
+  - name: TranscribeAudio
+    config:
+      bucket: 'opfoundindia'
+      #split_times: ['7:35:36']      
+      #split_times: ['7:55:25']
+      #split_times: ['0:5:0', '0:10:0']      
+      
+
