@@ -184,3 +184,5 @@ poetry.lock
 *~
 .DS_Store
 *.ppm
+logs
+.bak

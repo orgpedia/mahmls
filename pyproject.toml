@@ -33,6 +33,7 @@ dependencies = [
     "sentencepiece>=0.1.99,<0.2",
     "indic-nlp-library",
     "pyyaml>=6.0.2",
+    "internetarchive>=5.3.1",
 ]
 
 [project.urls]
