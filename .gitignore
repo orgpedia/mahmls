@@ -186,3 +186,4 @@ poetry.lock
 *.ppm
 logs
 .bak
+import/documents/archive_old.json

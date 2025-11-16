@@ -97,8 +97,8 @@ def merge_and_link(todos_file, documents_file, base_dir):
         existing_names.add(todo.get('name'))
 
     # Write the updated documents back to the file
-    #with documents_file.open('w', encoding='utf-8') as f:
-    #    json.dump(documents, f, indent=2, default=json_serializer)
+    with documents_file.open('w', encoding='utf-8') as f:
+       json.dump(documents, f, indent=2, default=json_serializer)
 
     print(f"Added {added_count} documents to {documents_file}")
     print(f"Created {linked_count} soft links in import/documents")
