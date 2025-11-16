@@ -1,0 +1,5 @@
+1. Process remaining sessions and extract information
+2. Create member directories
+3. Create minster ternures
+4. Process Calling Attention Motions
+5. Combine all of this in to a website
