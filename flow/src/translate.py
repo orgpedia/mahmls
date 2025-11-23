@@ -144,8 +144,11 @@ def main():
         print("\tinput_dir contains doc_translations_todo.json")
         sys.exit(1)
 
-    todo_file = input_dir / "doc_translations_todo.json"
-    translations_file = output_dir / "doc_translations.json"
+    #todo_file = input_dir / "doc_translations_todo.json"
+    #translations_file = output_dir / "doc_translations.json"
+
+    todo_file = Path(sys.argv[1])
+    translations_file = Path(sys.argv[2])
 
     translator = Translator(translations_file, todo_file, "mar_Deva", "eng_Latn")
 
