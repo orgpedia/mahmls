@@ -1,0 +1,10 @@
+edit_cid_words:
+  kokilaitalic:
+    - cids: [83, 103, 116, 73]
+      text: तसेच
+
+    - cids: [68, 107, 93]
+      text: काम
+
+    - cids: [89, 111, 82, 170]
+      text: 'पूर्ण '

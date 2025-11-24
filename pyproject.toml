@@ -31,7 +31,6 @@ classifiers = [
 dependencies = [
     "pysbd>=0.3.4,<0.4",
     "sentencepiece>=0.1.99,<0.2",
-    "indic-nlp-library",
     "pyyaml>=6.0.2",
     "internetarchive>=5.3.1",
 ]
@@ -49,12 +48,19 @@ dev = [
     "pdfplumber>=0.9.0,<0.10",
     "black>=22.6.0,<23",
     "ruff>=0.0.243,<0.0.244",
+    "translateindic",
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "tokenizers>=0.19.0",
 ]
 translate = [
     "docint",
-    "indic-nlp-library",
     "ctranslate2==3.9.0",
     "sentencepiece>=0.1.99,<0.2",
+    "translateindic",
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "tokenizers>=0.19.0",
 ]
 
 [tool.uv]
@@ -65,7 +71,7 @@ default-groups = [
 
 [tool.uv.sources]
 docint = { git = "https://github.com/mukundesh/docint.git" }
-indic-nlp-library = { git = "https://github.com/orgpedia/indic_nlp_library-deva.git" }
+translateindic = { git = "https://github.com/orgpedia/translateIndic" }
 
 [tool.hatch.build.targets.sdist]
 include = [

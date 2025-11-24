@@ -48,7 +48,7 @@ ignore_docs:
   mahmls-540.pdf: Proceedings ignoring
   mahmls-543.pdf: Proceedings ignoring
   mahmls-544.pdf: Proceedings ignoring
-  mahmls-1626.pdf: Proceedings ignoring  
+  mahmls-1626.pdf: Proceedings ignoring
 
   # IGNORING, NO HARM
   # mahmls-129.pdf=10-32[15]: t16-h17-q56-a69 subq_zero: questions are separated by 1), 2)
@@ -95,7 +95,12 @@ ignore_docs:
   #                           Starting word looks bold but is not.
   # mahmls-1653.pdf=20-38[24]: t0-h0-q0-a0 subq_zero, incorrect_min ><, role_missing, role_incorrect, no_answer, no_names
   #                           Starting word looks bold but is not.
-  
+
+  mahmls-1808.pdf: missing fonts f1, f3, f2
+  mahmls-1813.pdf: missing fonts f1, f3, f2
+  mahmls-1815.pdf: missing fonts f3, f1, f2
+  mahmls-1829.pdf: missing fonts f2, f4, f1
+
 pipeline:
 
   - name: pdf_cid_reader

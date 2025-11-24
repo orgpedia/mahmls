@@ -7,8 +7,8 @@ export PYTHONPATH := $(ROOT_DIR)/../src:$(PYTHONPATH)
 
 .PHONY: all
 
-all: 
-	poetry run python src/writeTxt.py input output > logs/info.log
+all:
+	uv run python src/writeTxt.py input output > logs/info.log
 
 %:
-	poetry run python src/writeTxt.py input/mahmls-$@.pdf output/mahmls-$@.pdf.doc.json
+	uv run python src/writeTxt.py input/mahmls-$@.pdf output/mahmls-$@.pdf.doc.json

@@ -177,12 +177,14 @@ class Translator:
             traceback.print_exc()
             raise
 
-    def translate_paragraphs(self, para_texts):
+    def translate_paragraphs(self, para_texts, batch_size=10, save_interval=5):
         """
-        Translate paragraphs using the translateindic library.
+        Translate paragraphs using the translateindic library with batch processing and regular saves.
 
         Args:
             para_texts: List of paragraph texts to translate
+            batch_size: Number of paragraphs to translate in one batch (default: 10)
+            save_interval: Save translations after this many successful batches (default: 5)
 
         Returns:
             List of translated paragraphs
@@ -190,40 +192,94 @@ class Translator:
         if not para_texts:
             return []
 
-        print(f"[Translator] Translating {len(para_texts)} paragraphs...")
+        print(f"[Translator] Translating {len(para_texts)} paragraphs in batches of {batch_size}...")
         translator = self.load_translator()
 
-        try:
-            # Use the translate_paragraphs method from translateindic.Translator
-            para_trans = translator.translate_paragraphs(para_texts)
-            print(f"[Translator] Paragraph translation completed")
-            return para_trans
-        except Exception as e:
-            print(f"[Translator] ERROR during paragraph translation: {e}")
-            print(f"[Translator] Error type: {type(e).__name__}")
-            print(f"[Translator] Stack trace:")
-            traceback.print_exc()
-            print(f"[Translator] Attempting fallback: translating as sentences...")
+        para_trans = []
+        batches_since_save = 0
 
-            # Fallback: try translating as sentences instead
+        for i in range(0, len(para_texts), batch_size):
+            batch = para_texts[i:i+batch_size]
+            batch_num = i//batch_size + 1
+            total_batches = (len(para_texts)-1)//batch_size + 1
+
+            print(f"[Translator] Processing paragraph batch {batch_num}/{total_batches} ({len(batch)} paragraphs)")
+
             try:
-                para_trans = translator.translate_sentences(para_texts)
-                print(f"[Translator] Fallback translation completed")
-                return para_trans
-            except Exception as e2:
-                print(f"[Translator] ERROR during fallback translation: {e2}")
-                print(f"[Translator] Error type: {type(e2).__name__}")
+                # Use the translate_paragraphs method from translateindic.Translator
+                batch_trans = translator.translate_paragraphs(batch)
+                print(f"[Translator] Batch {batch_num} completed successfully")
+                para_trans.extend(batch_trans)
+
+                # Add to cache immediately
+                for (p, t) in zip(batch, batch_trans):
+                    self.translations[p] = t
+
+                batches_since_save += 1
+
+                # Save at regular intervals
+                if batches_since_save >= save_interval:
+                    print(f"[Translator] Saving progress after {batches_since_save} batches...")
+                    self.save_translations()
+                    batches_since_save = 0
+
+            except Exception as e:
+                print(f"[Translator] ERROR during paragraph batch {batch_num}: {e}")
+                print(f"[Translator] Error type: {type(e).__name__}")
                 print(f"[Translator] Stack trace:")
                 traceback.print_exc()
-                print(f"[Translator] Skipping these {len(para_texts)} paragraphs")
-                return ["[TRANSLATION_FAILED]"] * len(para_texts)
+                print(f"[Translator] Attempting fallback: translating batch as sentences...")
 
-    def translate_sentences(self, sent_texts):
+                # Fallback: try translating as sentences instead
+                try:
+                    batch_trans = translator.translate_sentences(batch)
+                    print(f"[Translator] Fallback translation completed for batch {batch_num}")
+                    para_trans.extend(batch_trans)
+
+                    # Add to cache immediately
+                    for (p, t) in zip(batch, batch_trans):
+                        self.translations[p] = t
+
+                    batches_since_save += 1
+
+                    # Save at regular intervals
+                    if batches_since_save >= save_interval:
+                        print(f"[Translator] Saving progress after {batches_since_save} batches...")
+                        self.save_translations()
+                        batches_since_save = 0
+
+                except Exception as e2:
+                    print(f"[Translator] ERROR during fallback translation for batch {batch_num}: {e2}")
+                    print(f"[Translator] Error type: {type(e2).__name__}")
+                    print(f"[Translator] Stack trace:")
+                    traceback.print_exc()
+                    print(f"[Translator] Marking {len(batch)} paragraphs as failed")
+                    failed_trans = ["[TRANSLATION_FAILED]"] * len(batch)
+                    para_trans.extend(failed_trans)
+
+                    # Save failed translations too to avoid retrying
+                    for (p, t) in zip(batch, failed_trans):
+                        self.translations[p] = t
+
+                    print(f"[Translator] Saving progress (including failures)...")
+                    self.save_translations()
+                    batches_since_save = 0
+
+        # Final save if there are unsaved batches
+        if batches_since_save > 0:
+            print(f"[Translator] Saving final progress...")
+            self.save_translations()
+
+        return para_trans
+
+    def translate_sentences(self, sent_texts, batch_size=50, save_interval=10):
         """
-        Translate sentences using the translateindic library.
+        Translate sentences using the translateindic library with batch processing and regular saves.
 
         Args:
             sent_texts: List of sentence texts to translate
+            batch_size: Number of sentences to translate in one batch (default: 50)
+            save_interval: Save translations after this many successful batches (default: 10)
 
         Returns:
             List of translated sentences
@@ -231,45 +287,92 @@ class Translator:
         if not sent_texts:
             return []
 
-        print(f"[Translator] Translating {len(sent_texts)} sentences...")
+        print(f"[Translator] Translating {len(sent_texts)} sentences in batches of {batch_size}...")
         translator = self.load_translator()
 
-        try:
-            # Use the translate_sentences method from translateindic.Translator
-            sent_trans = translator.translate_sentences(sent_texts)
-            print(f"[Translator] Sentence translation completed")
-            return sent_trans
-        except Exception as e:
-            print(f"[Translator] ERROR during sentence translation: {e}")
-            print(f"[Translator] Error type: {type(e).__name__}")
-            print(f"[Translator] Stack trace:")
-            traceback.print_exc()
+        sent_trans = []
+        batches_since_save = 0
 
-            # Try processing in smaller batches
-            print(f"[Translator] Attempting to process in smaller batches...")
-            batch_size = 2
-            sent_trans = []
+        for i in range(0, len(sent_texts), batch_size):
+            batch = sent_texts[i:i+batch_size]
+            batch_num = i//batch_size + 1
+            total_batches = (len(sent_texts)-1)//batch_size + 1
 
-            for i in range(0, len(sent_texts), batch_size):
-                batch = sent_texts[i:i+batch_size]
-                print(f"[Translator] Processing batch {i//batch_size + 1}/{(len(sent_texts)-1)//batch_size + 1} ({len(batch)} sentences)")
-                try:
-                    batch_trans = translator.translate_sentences(batch)
-                    sent_trans.extend(batch_trans)
-                    print(f"[Translator] Batch {i//batch_size + 1} completed successfully")
-                except Exception as e_batch:
-                    print(f"[Translator] ERROR in batch {i//batch_size + 1}: {e_batch}")
-                    print(f"[Translator] Error type: {type(e_batch).__name__}")
-                    print(f"[Translator] Stack trace:")
-                    traceback.print_exc()
-                    print(f"[Translator] Marking {len(batch)} sentences as failed")
-                    sent_trans.extend(["[TRANSLATION_FAILED]"] * len(batch))
+            print(f"[Translator] Processing sentence batch {batch_num}/{total_batches} ({len(batch)} sentences)")
 
-            return sent_trans
+            try:
+                # Use the translate_sentences method from translateindic.Translator
+                batch_trans = translator.translate_sentences(batch)
+                print(f"[Translator] Batch {batch_num} completed successfully")
+                sent_trans.extend(batch_trans)
+
+                # Add to cache immediately
+                for (s, t) in zip(batch, batch_trans):
+                    self.translations[s] = t
+
+                batches_since_save += 1
+
+                # Save at regular intervals
+                if batches_since_save >= save_interval:
+                    print(f"[Translator] Saving progress after {batches_since_save} batches...")
+                    self.save_translations()
+                    batches_since_save = 0
+
+            except Exception as e:
+                print(f"[Translator] ERROR during sentence batch {batch_num}: {e}")
+                print(f"[Translator] Error type: {type(e).__name__}")
+                print(f"[Translator] Stack trace:")
+                traceback.print_exc()
+
+                # Try processing in smaller batches
+                print(f"[Translator] Attempting to process batch in smaller sub-batches...")
+                smaller_batch_size = 2
+
+                for j in range(0, len(batch), smaller_batch_size):
+                    sub_batch = batch[j:j+smaller_batch_size]
+                    sub_batch_num = j//smaller_batch_size + 1
+                    total_sub_batches = (len(batch)-1)//smaller_batch_size + 1
+
+                    print(f"[Translator] Processing sub-batch {sub_batch_num}/{total_sub_batches} ({len(sub_batch)} sentences)")
+
+                    try:
+                        sub_batch_trans = translator.translate_sentences(sub_batch)
+                        sent_trans.extend(sub_batch_trans)
+                        print(f"[Translator] Sub-batch {sub_batch_num} completed successfully")
+
+                        # Add to cache immediately
+                        for (s, t) in zip(sub_batch, sub_batch_trans):
+                            self.translations[s] = t
+
+                    except Exception as e_sub:
+                        print(f"[Translator] ERROR in sub-batch {sub_batch_num}: {e_sub}")
+                        print(f"[Translator] Error type: {type(e_sub).__name__}")
+                        print(f"[Translator] Stack trace:")
+                        traceback.print_exc()
+                        print(f"[Translator] Marking {len(sub_batch)} sentences as failed")
+                        failed_trans = ["[TRANSLATION_FAILED]"] * len(sub_batch)
+                        sent_trans.extend(failed_trans)
+
+                        # Save failed translations too to avoid retrying
+                        for (s, t) in zip(sub_batch, failed_trans):
+                            self.translations[s] = t
+
+                # Save after processing a failed batch (all sub-batches)
+                print(f"[Translator] Saving progress after failed batch (including any failures)...")
+                self.save_translations()
+                batches_since_save = 0
+
+        # Final save if there are unsaved batches
+        if batches_since_save > 0:
+            print(f"[Translator] Saving final progress...")
+            self.save_translations()
+
+        return sent_trans
 
     def translate(self):
         """
         Main translation method. Processes todos and generates translations.
+        Translations are saved regularly during batch processing to prevent data loss.
         """
         if not self.para_todos and not self.sent_todos:
             print("[Translator] No todos to translate")
@@ -286,31 +389,19 @@ class Translator:
             print("[Translator] All texts already translated!")
             return
 
-        # Translate paragraphs
+        # Translate paragraphs (saves are handled internally in batches)
         if para_texts:
             print("\n[Translator] ******** TRANSLATING PARAGRAPHS ***********")
-            para_trans = self.translate_paragraphs(para_texts)
+            print(f"[Translator] Progress will be saved every 5 batches (50 paragraphs)")
+            self.translate_paragraphs(para_texts)
+            print(f"[Translator] Completed {len(para_texts)} paragraph translations")
 
-            # Add to cache
-            for (p, t) in zip(para_texts, para_trans):
-                self.translations[p] = t
-
-            # Save incrementally
-            self.save_translations()
-            print(f"[Translator] Added {len(para_texts)} paragraph translations to cache")
-
-        # Translate sentences
+        # Translate sentences (saves are handled internally in batches)
         if sent_texts:
             print("\n[Translator] ******** TRANSLATING SENTENCES ***********")
-            sent_trans = self.translate_sentences(sent_texts)
-
-            # Add to cache
-            for (s, t) in zip(sent_texts, sent_trans):
-                self.translations[s] = t
-
-            # Save incrementally
-            self.save_translations()
-            print(f"[Translator] Added {len(sent_texts)} sentence translations to cache")
+            print(f"[Translator] Progress will be saved every 10 batches (500 sentences)")
+            self.translate_sentences(sent_texts)
+            print(f"[Translator] Completed {len(sent_texts)} sentence translations")
 
         print("\n[Translator] ******** TRANSLATION COMPLETE ***********")
         print(f"[Translator] Total translations in cache: {len(self.translations)}")

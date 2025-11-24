@@ -7,8 +7,8 @@ export PYTHONPATH := $(ROOT_DIR)/../src:$(PYTHONPATH)
 
 .PHONY: all
 
-all: 
-	poetry run python src/transcribeAudio.py input output > logs/info.log
+all:
+	uv run python src/transcribeAudio.py input output > logs/info.log
 
 %:
-	poetry run python src/transcribeAudio.py input/mahmls-$@.webm output/mahmls-$@.webm.audio.json
+	uv run python src/transcribeAudio.py input/mahmls-$@.webm output/mahmls-$@.webm.audio.json

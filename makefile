@@ -31,65 +31,38 @@ help:
 	@echo # dummy command
 
 install: pyproject.toml
-	poetry install --only=dev
-
-check_env:
-ifndef GR_DIR
-	$(error GR_DIR is undefined)
-endif
-ifndef SECRETS_DIR
-	$(error SECRETS_DIR is undefined)
-endif
-ifndef MODELS_DIR
-	$(error MODELS_DIR is undefined)
-endif
+	uv sync --group dev
 
 
 
-import/websites/gr.maharashtra.gov.in/Legislature:
-	cd import/websites/gr.maharashtra.gov.in/ && ln -s $(GR_DIR)/Legislature .
-
-.secrets/google.token:
-	cd .secrets && ln -s $(SECRETS_DIR)/google.token .
-
-import/models/ai4bharat/IndicTrans2-en/ct2_int8_model:
-	mkdir -p import/models/ai4bharat/IndicTrans2-en
-	cd import/models/ai4bharat/IndicTrans2-en/ && ln -sf $(MODELS_DIR)/ct2_int8_model .
-
-import: check_env import/websites/gr.maharashtra.gov.in/Legislature .secrets/google.token 
-	poetry run python import/src/build_documents.py import/websites/gr.maharashtra.gov.in/Legislature import/documents
-	poetry run python flow/src/link_new.py import/documents flow/writeTxt_/input
-	cd flow/writeTxt_/conf && ln -sf ../../subFlows/translate_/output/doc_translations.json .
-	cd flow/subFlows/translate_/input && ln -sf ../../../writeTxt_/output/doc_translations_todo.json .
 
 flow: $(tasks)
 $(tasks):
-	poetry run make -C $@
+	uv run make -C $@
 
 trans-install: import/models/ai4bharat/IndicTrans2-en/ct2_int8_model
-	poetry lock
-	poetry install --only=translate
+	uv sync --group translate
 
 translate: $(sub_tasks)
 $(sub_tasks):
-	poetry run make -C $@
+	uv run make -C $@
 
 check:
-	poetry run op check
+	uv run op check
 
 readme:
-	poetry run op readme-mah
+	uv run op readme-mah
 
 lint:
-	poetry run black -q .
-	poetry run ruff .
+	uv run black -q .
+	uv run ruff .
 
 format:
-	poetry run black -q .
-	poetry run ruff --fix .
+	uv run black -q .
+	uv run ruff --fix .
 
 export: readme
-	poetry run op export-mah
+	uv run op export-mah
 
 
 # Use pre-commit if there are lots of edits,
