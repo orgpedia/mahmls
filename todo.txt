@@ -1,4 +1,8 @@
 1. Process remaining sessions and extract information
+a.Translation of 1701 - 1801 is pending
+python ../src/translate2.py conf/todos/todos-1701-1800.json conf/trans/trans-1701-1800.json
+b. Need to rerun make on those files
+
 2. Create member directories
 3. Create minster ternures
 4. Process Calling Attention Motions
