@@ -1,0 +1,50 @@
+uv run python src/readPDF.py input/mahmls-1884.pdf output/mahmls-1884.pdf.doc.json
+Processing: mahmls-1884.pdf
+  exec_task: pdf_cid_reader 
+NotFound dvotsurekhmr 16
+NotFound dvotsurekhmr 16
+NotFound dvotsurekhmr 16
+NotFound dvotsurekhmr 16
+NotFound dvotsurekhmr 16
+NotFound dvotsurekhmr 16
+NotFound dvotsurekhmr 16
+NotFound dvotsurekhmr 16
+NotFound dvotsurekhmr 16
+  exec_task: line_finder 
+  exec_task: info_reader 
+  exec_task: question_extractor 
+> question_extractor: mahmls-1884.pdf
+Qsig: mahmls-1884.pdf=0-21[1]: t7-h18-q138-a140 
+Qsig: mahmls-1884.pdf=1-16[2]: t6-h22-q118-a143 
+Qsig: mahmls-1884.pdf=2-8[3]: t7-h22-q121-a372 
+Qsig: mahmls-1884.pdf=3-25[4]: t11-h15-q214-a144 
+Qsig: mahmls-1884.pdf=4-29[5]: t18-h24-q112-a96 
+Qsig: mahmls-1884.pdf=5-16[6]: t10-h21-q89-a132 
+Qsig: mahmls-1884.pdf=6-6[7]: t10-h22-q98-a68 
+Qsig: mahmls-1884.pdf=6-29[8]: t7-h17-q112-a109 
+Qsig: mahmls-1884.pdf=7-14[9]: t10-h15-q93-a123 
+Qsig: mahmls-1884.pdf=7-38[10]: t8-h16-q151-a35 
+Qsig: mahmls-1884.pdf=8-26[11]: t9-h19-q123-a36 
+Qsig: mahmls-1884.pdf=9-7[12]: t12-h43-q92-a150 
+Qsig: mahmls-1884.pdf=9-39[13]: t8-h164-q139-a167 
+Qsig: mahmls-1884.pdf=11-7[14]: t9-h17-q167-a217 
+Qsig: mahmls-1884.pdf=12-11[15]: t11-h22-q101-a119 
+Qsig: mahmls-1884.pdf=12-37[16]: t11-h14-q178-a227 
+Qsig: mahmls-1884.pdf=14-9[17]: t11-h17-q89-a112 
+Qsig: mahmls-1884.pdf=14-32[18]: t8-h23-q98-a190 
+Qsig: mahmls-1884.pdf=15-26[19]: t6-h22-q88-a205 
+Qsig: mahmls-1884.pdf=16-22[20]: t15-h61-q74-a151 
+Qsig: mahmls-1884.pdf=17-15[21]: t10-h16-q161-a226 
+Qsig: mahmls-1884.pdf=18-18[22]: t8-h15-q99-a110 
+Qsig: mahmls-1884.pdf=19-11[23]: t11-h15-q175-a205 
+Qsig: mahmls-1884.pdf=20-13[24]: t12-h22-q114-a139 
+Qsig: mahmls-1884.pdf=21-5[25]: t12-h29-q160-a138 
+Qsig: mahmls-1884.pdf=22-5[26]: t5-h23-q251-a220 
+Qsig: mahmls-1884.pdf=23-14[27]: t9-h22-q128-a159 
+Qsig: mahmls-1884.pdf=24-9[28]: t5-h22-q137-a284 
+Qsig: mahmls-1884.pdf=25-12[29]: t9-h21-q149-a303 
+Qsig: mahmls-1884.pdf=26-24[30]: t8-h22-q178-a107 
+< question_extractor: mahmls-1884.pdf 30 Qs extracted
+  exec_task: question_translator 
+No todos to write write_todos: False
+  exec_task: question_writer 
