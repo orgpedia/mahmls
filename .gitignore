@@ -143,7 +143,6 @@ dmypy.json
 model
 
 # Don't upload following folders
-/import/websites/
 /import/models/*
 !/import/models/ai4bharat/IndicTrans2-en/README.md
 !/import/models/models.yml
@@ -187,3 +186,6 @@ poetry.lock
 logs
 .bak
 import/documents/archive_old.json
+
+LFS
+!LFS/README.md
