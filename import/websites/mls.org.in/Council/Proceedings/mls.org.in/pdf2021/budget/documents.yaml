@@ -1,0 +1,7 @@
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf2021/budget/tatpurti-kayavali-council.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Budget
+  year: '2021'
+  url: http://mls.org.in/pdf2021/budget/tatpurti-kayavali-council.pdf
+  name: mahmls-3.pdf

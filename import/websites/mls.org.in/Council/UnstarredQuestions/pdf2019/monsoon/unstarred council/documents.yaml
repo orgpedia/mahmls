@@ -1,0 +1,17 @@
+- repo_path: /import/websites/mls.org.in/Council/UnstarredQuestions/pdf2019/monsoon/unstarred council/Final Yadi 1.pdf
+  house: Council
+  doc_type: UnstarredQuestions
+  year: '2019'
+  session: Monsoon
+  url: http://mls.org.in/pdf2019/monsoon/unstarred%20council/Final%20Yadi%201.pdf
+  list_num: 1
+  name: mahmls-26.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/UnstarredQuestions/pdf2019/monsoon/unstarred council/Final Yadi 2.pdf
+  house: Council
+  doc_type: UnstarredQuestions
+  year: '2019'
+  session: Monsoon
+  url: http://mls.org.in/pdf2019/monsoon/unstarred%20council/Final%20Yadi%202.pdf
+  list_num: 2
+  name: mahmls-27.pdf

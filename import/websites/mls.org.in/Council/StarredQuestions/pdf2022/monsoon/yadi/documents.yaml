@@ -1,0 +1,53 @@
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2022/monsoon/yadi/yadi-23082022-council.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Monsoon
+  url: http://mls.org.in/pdf2022/monsoon/yadi/yadi-23082022-council.pdf
+  year: 2022
+  date: '2022-08-23'
+  name: mahmls-460.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2022/monsoon/yadi/Yadi-17082022-council.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Monsoon
+  url: http://mls.org.in/pdf2022/monsoon/yadi/Yadi-17082022-council.pdf
+  year: 2022
+  date: '2022-08-17'
+  name: mahmls-461.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2022/monsoon/yadi/yadi-22082022-council.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Monsoon
+  url: http://mls.org.in/pdf2022/monsoon/yadi/yadi-22082022-council.pdf
+  year: 2022
+  date: '2022-08-22'
+  name: mahmls-462.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2022/monsoon/yadi/yadi-24082022-council.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Monsoon
+  url: http://mls.org.in/pdf2022/monsoon/yadi/yadi-24082022-council.pdf
+  year: 2022
+  date: '2022-08-24'
+  name: mahmls-463.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2022/monsoon/yadi/yadi-25082022-council.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Monsoon
+  url: http://mls.org.in/pdf2022/monsoon/yadi/yadi-25082022-council.pdf
+  year: 2022
+  date: '2022-08-25'
+  name: mahmls-464.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2022/monsoon/yadi/Yadi-18082022-council.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Monsoon
+  url: http://mls.org.in/pdf2022/monsoon/yadi/Yadi-18082022-council.pdf
+  year: 2022
+  date: '2022-08-18'
+  name: mahmls-465.pdf

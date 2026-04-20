@@ -1,0 +1,7 @@
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf2020/winter/karyavali-assembly.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Winter
+  year: '2020'
+  url: http://mls.org.in/pdf2020/winter/karyavali-assembly.pdf
+  name: mahmls-515.pdf

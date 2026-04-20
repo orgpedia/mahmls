@@ -1,0 +1,1 @@
+https://en.wikipedia.org/w/api.php?action=query&prop=pageimages&format=json&piprop=original&titles=Shah_Faruk_Anwar

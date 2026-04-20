@@ -1,0 +1,54 @@
+#N/A|Madan Madhukarrao Yerawar|Yavatmal
+#N/A|Pradeep Jadhav|Kinwat
+#N/A|Nagesh Patil|Hadgaon
+#N/A|Ameeta Chavan|Bhokar
+#N/A|Prataprao Chikhalikar|Loha
+#N/A|Madhusudan Kendre|Gangakhed
+#N/A|Narayan Tilakchand Kuche|Badnapur
+#N/A|Prashant Bamb|Gangapur
+#N/A|Rahul Aher|Chandvad
+#N/A|Rupesh Mhatre|Bhiwandi East
+#N/A|Kisan Shankar Kathore|Murbad
+#N/A|Ganpat Kalu Gaikwad|Kalyan East
+#N/A|Sanjay Kelkar|Thane
+#N/A|Manda Mhatre|Belapur
+#N/A|Manisha Choudhary|Dahisar
+#N/A|Sardar Tara Singh|Mulund
+#N/A|Bharati Hemant Lavekar|Versova
+#N/A|Parag Alavani|Vile Parle
+#N/A|Varsha Gaikwad|Dharavi
+#N/A|Captain R. Tamil Selvan|Sion Koliwada
+#N/A|Sada Sarvankar|Mahim
+#N/A|Dhairyashil Patil|Pen
+#N/A|Panditshet Patil|Alibag
+#N/A|Dattatray Bharne|Indapur
+#N/A|Sangram Thopate|Bhor
+#N/A|Vaibhav Pichad|Akole
+#N/A|Bhausaheb Kamble|Shrirampur
+#N/A|Balasaheb Murkute|Nevasa
+#N/A|Shivaji Kardile|Rahuri
+#N/A|Vijayrao Auti|Parner
+#N/A|Sangram Jagtap|Ahmednagar City
+#N/A|Rahul Jagtap|Shrigonda
+#N/A|Jaidatta Kshirsagar|Beed
+#N/A|Bhimrao Dhonde|Ashti
+#N/A|Sangita Thombare|Kaij
+#N/A|Trimbakrao Bhise|Latur Rural
+#N/A|Vinayakrao Jadhav|Ahmadpur
+#N/A|Sudhakar Bhalerao|Udgir
+#N/A|Sambhaji Patil Nilangekar|Nilanga
+#N/A|Basavraj Patil|Ausa
+#N/A|Dnyanraj Chougule|Umarga
+#N/A|Rana Jagjit Sinha Patil|Osmanabad
+#N/A|Rahul Mote|Paranda
+#N/A|Babanrao Shinde|Madha
+#N/A|Dilip Sopal|Barshi
+#N/A|Siddharam Mhetre|Akkalkot
+#N/A|Dipak Chavan|Phaltan
+#N/A|Makarand Laxmanrao Jadhav Patil|Wai
+#N/A|Prithviraj Chavan|Karad South
+#N/A|Shambhuraj Desai|Patan
+#N/A|Sanjay Kadam|Dapoli
+#N/A|Sandhyadevi Desai|Chandgad
+#N/A|Shivajirao Naik|Shirala
+#N/A|Vilasrao Jagtap|Jat

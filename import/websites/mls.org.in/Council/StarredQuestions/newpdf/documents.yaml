@@ -1,0 +1,80 @@
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/Yadi 15.12.2016.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/Yadi%2015.12.2016.pdf
+  year: 2016
+  date: '2016-12-15'
+  name: mahmls-483.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/7.12.2016.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/7.12.2016.pdf
+  year: 2016
+  date: '2016-12-07'
+  name: mahmls-484.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/yaadi 13.12.16..pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/yaadi%2013.12.16..pdf
+  year: 2016
+  date: '2016-12-13'
+  name: mahmls-485.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/5-12-2016.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/5-12-2016.pdf
+  year: 2016
+  date: '2016-12-05'
+  name: mahmls-486.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/8.12.2016.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/8.12.2016.pdf
+  year: 2016
+  date: '2016-12-08'
+  name: mahmls-487.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/6.12.2016.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/6.12.2016.pdf
+  year: 2016
+  date: '2016-12-06'
+  name: mahmls-488.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/9.12.2016.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/9.12.2016.pdf
+  year: 2016
+  date: '2016-12-09'
+  name: mahmls-489.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/14.12.2016.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/14.12.2016.pdf
+  year: 2016
+  date: '2016-12-14'
+  name: mahmls-490.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/newpdf/final yadi 16.12.2016.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/newpdf/final%20yadi%2016.12.2016.pdf
+  year: 2016
+  date: '2016-12-16'
+  name: mahmls-491.pdf

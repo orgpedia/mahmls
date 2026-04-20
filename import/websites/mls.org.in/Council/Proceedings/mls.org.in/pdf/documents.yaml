@@ -1,0 +1,71 @@
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/karyawali15C1.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Budget
+  year: '202015'
+  url: http://mls.org.in/pdf/karyawali15C1.pdf
+  name: mahmls-7.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/karyawali_R16C.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Monsoon
+  year: '202016'
+  url: http://mls.org.in/pdf/karyawali_R16C.pdf
+  name: mahmls-8.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/karyavali13Crainy.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Monsoon
+  year: '202013'
+  url: http://mls.org.in/pdf/karyavali13Crainy.pdf
+  name: mahmls-9.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/finalkaryawaliBudgetC2013.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Budget
+  year: '2013'
+  url: http://mls.org.in/pdf/finalkaryawaliBudgetC2013.pdf
+  name: mahmls-10.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/Final karyawaliconcil2012.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Monsoon
+  year: '2012'
+  url: http://mls.org.in/pdf/Final%20karyawaliconcil2012.pdf
+  name: mahmls-11.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/karyawali14C1.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Budget
+  year: '202014'
+  url: http://mls.org.in/pdf/karyawali14C1.pdf
+  name: mahmls-12.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/karyawali-2016-council-winter.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Winter
+  year: '2016'
+  url: http://mls.org.in/pdf/karyawali-2016-council-winter.pdf
+  name: mahmls-13.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/final karyawali.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Budget
+  year: 20None
+  url: http://mls.org.in/pdf/final%20karyawali.pdf
+  name: mahmls-14.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf/karyawali2012third.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Winter
+  year: '2012'
+  url: http://mls.org.in/pdf/karyawali2012third.pdf
+  name: mahmls-15.pdf

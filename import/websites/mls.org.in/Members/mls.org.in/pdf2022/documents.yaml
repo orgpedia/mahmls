@@ -1,0 +1,8 @@
+- repo_path: /import/websites/mls.org.in/Members/mls.org.in/pdf2022/council-member-info.pdf
+  house: Council
+  doc_type: Members
+  session: Budget
+  url: http://mls.org.in/pdf2022/council-member-info.pdf
+  year: 2022
+  date: '2022-06-01'
+  name: mahmls-1659.pdf

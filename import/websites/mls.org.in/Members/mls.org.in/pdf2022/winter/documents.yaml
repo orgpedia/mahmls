@@ -1,0 +1,8 @@
+- repo_path: /import/websites/mls.org.in/Members/mls.org.in/pdf2022/winter/council-member-list.pdf
+  house: Council
+  doc_type: Members
+  session: Winter
+  url: http://mls.org.in/pdf2022/winter/council-member-list.pdf
+  year: 2022
+  date: '2022-12-06'
+  name: mahmls-1661.pdf

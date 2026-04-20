@@ -1,0 +1,8 @@
+- repo_path: /import/websites/mls.org.in/Members/mls.org.in/pdf2022/monsoon/council-member-list.pdf
+  house: Council
+  doc_type: Members
+  session: Monsoon
+  url: http://mls.org.in/pdf2022/monsoon/council-member-list.pdf
+  year: 2022
+  date: '2022-09-01'
+  name: mahmls-1660.pdf

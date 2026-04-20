@@ -1,0 +1,7 @@
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/PDF2023/BUDGET/karyavali-assembly.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '2023'
+  url: http://mls.org.in/PDF2023/BUDGET/karyavali-assembly.pdf
+  name: mahmls-535.pdf

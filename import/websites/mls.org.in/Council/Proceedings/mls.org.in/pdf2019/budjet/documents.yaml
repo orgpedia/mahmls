@@ -1,0 +1,7 @@
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf2019/budjet/karyavali council budget session 2019.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Budget
+  year: '2019'
+  url: http://mls.org.in/pdf2019/budjet/karyavali%20council%20budget%20session%202019.pdf
+  name: mahmls-5.pdf

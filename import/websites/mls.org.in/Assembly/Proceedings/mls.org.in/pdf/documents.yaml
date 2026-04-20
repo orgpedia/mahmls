@@ -1,0 +1,71 @@
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/karyavali16A1.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '202016'
+  url: http://mls.org.in/pdf/karyavali16A1.pdf
+  name: mahmls-523.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/karyavali16A2.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Monsoon
+  year: '202016'
+  url: http://mls.org.in/pdf/karyavali16A2.pdf
+  name: mahmls-524.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/karyavali14A1.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '202014'
+  url: http://mls.org.in/pdf/karyavali14A1.pdf
+  name: mahmls-525.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/Finalkaryavali_A2.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Monsoon
+  year: 20None
+  url: http://mls.org.in/pdf/Finalkaryavali_A2.pdf
+  name: mahmls-526.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/Final karyavaliAssrainy12.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Monsoon
+  year: '202012'
+  url: http://mls.org.in/pdf/Final%20karyavaliAssrainy12.pdf
+  name: mahmls-527.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/finalkaryavalibudgetA2013.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '2013'
+  url: http://mls.org.in/pdf/finalkaryavalibudgetA2013.pdf
+  name: mahmls-528.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/karyawali14A3.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Winter
+  year: '202014'
+  url: http://mls.org.in/pdf/karyawali14A3.pdf
+  name: mahmls-529.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/karyawali_splA.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Winter
+  year: 20None
+  url: http://mls.org.in/pdf/karyawali_splA.pdf
+  name: mahmls-530.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf/Temporary Karyavali sabha.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: 20None
+  url: http://mls.org.in/pdf/Temporary%20Karyavali%20sabha.pdf
+  name: mahmls-531.pdf

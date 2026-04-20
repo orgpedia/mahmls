@@ -1,0 +1,44 @@
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2021/winter/yadi/Star Yadi 22122021.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/pdf2021/winter/yadi/Star%20Yadi%2022122021.pdf
+  year: 2021
+  date: '2021-12-22'
+  name: mahmls-306.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2021/winter/yadi/Star Yadi 24.12.2021.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/pdf2021/winter/yadi/Star%20Yadi%2024.12.2021.pdf
+  year: 2021
+  date: '2021-12-24'
+  name: mahmls-307.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2021/winter/yadi/Star Yadi 28122021.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/pdf2021/winter/yadi/Star%20Yadi%2028122021.pdf
+  year: 2021
+  date: '2021-12-28'
+  name: mahmls-308.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2021/winter/yadi/Star Yadi 23122021.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/pdf2021/winter/yadi/Star%20Yadi%2023122021.pdf
+  year: 2021
+  date: '2021-12-23'
+  name: mahmls-309.pdf
+
+- repo_path: /import/websites/mls.org.in/Council/StarredQuestions/pdf2021/winter/yadi/Star Yadi 27122021.pdf
+  house: Council
+  doc_type: StarredQuestions
+  session: Winter
+  url: http://mls.org.in/pdf2021/winter/yadi/Star%20Yadi%2027122021.pdf
+  year: 2021
+  date: '2021-12-27'
+  name: mahmls-310.pdf

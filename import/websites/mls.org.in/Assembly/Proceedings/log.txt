@@ -1,0 +1,1545 @@
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/PDF2023/MONSOON/karyavali-assembly.pdf' (UTF-8) -> 'mls.org.in/PDF2023/MONSOON/karyavali-assembly.pdf' (UTF-8)
+--2023-08-28 15:38:54--  http://mls.org.in/PDF2023/MONSOON/karyavali-assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000016a89c0 (new refcount 1).
+
+---request begin---
+GET /PDF2023/MONSOON/karyavali-assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Sun, 16 Jul 2023 08:33:56 GMT
+Accept-Ranges: bytes
+ETag: "5547c542c0b7d91:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:08:54 GMT
+Content-Length: 392388
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 392388 (383K) [application/pdf]
+Saving to: ‘mls.org.in/PDF2023/MONSOON/karyavali-assembly.pdf’
+
+     0K .......... .......... .......... .......... .......... 13% 5.67M 0s
+    50K .......... .......... .......... .......... .......... 26% 1.83M 0s
+   100K .......... .......... .......... .......... .......... 39% 7.45M 0s
+   150K .......... .......... .......... .......... .......... 52% 3.64M 0s
+   200K .......... .......... .......... .......... .......... 65% 7.25M 0s
+   250K .......... .......... .......... .......... .......... 78% 5.54M 0s
+   300K .......... .......... .......... .......... .......... 91% 4.20M 0s
+   350K .......... .......... .......... ...                  100% 5.30M=0.09s
+
+2023-08-28 15:38:55 (4.23 MB/s) - ‘mls.org.in/PDF2023/MONSOON/karyavali-assembly.pdf’ saved [392388/392388]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/PDF2023/BUDGET/karyavali-assembly.pdf' (UTF-8) -> 'mls.org.in/PDF2023/BUDGET/karyavali-assembly.pdf' (UTF-8)
+--2023-08-28 15:38:57--  http://mls.org.in/PDF2023/BUDGET/karyavali-assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000010442e0 (new refcount 1).
+
+---request begin---
+GET /PDF2023/BUDGET/karyavali-assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Mon, 27 Feb 2023 13:07:28 GMT
+Accept-Ranges: bytes
+ETag: "22ed971ac4ad91:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:08:56 GMT
+Content-Length: 387986
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 387986 (379K) [application/pdf]
+Saving to: ‘mls.org.in/PDF2023/BUDGET/karyavali-assembly.pdf’
+
+     0K .......... .......... .......... .......... .......... 13% 44.4K 7s
+    50K .......... .......... .......... .......... .......... 26%  163K 4s
+   100K .......... .......... .......... .......... .......... 39% 3.46M 2s
+   150K .......... .......... .......... .......... .......... 52%  166K 2s
+   200K .......... .......... .......... .......... .......... 65%  167K 1s
+   250K .......... .......... .......... .......... .......... 79% 6.95M 1s
+   300K .......... .......... .......... .......... .......... 92% 6.23M 0s
+   350K .......... .......... ........                        100%  171K=2.2s
+
+2023-08-28 15:39:00 (170 KB/s) - ‘mls.org.in/PDF2023/BUDGET/karyavali-assembly.pdf’ saved [387986/387986]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2022/winter/karyavali-assembly.pdf' (UTF-8) -> 'mls.org.in/pdf2022/winter/karyavali-assembly.pdf' (UTF-8)
+--2023-08-28 15:39:02--  http://mls.org.in/pdf2022/winter/karyavali-assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600000bed380 (new refcount 1).
+
+---request begin---
+GET /pdf2022/winter/karyavali-assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Tue, 20 Dec 2022 05:25:37 GMT
+Accept-Ranges: bytes
+ETag: "648d417e3314d91:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:02 GMT
+Content-Length: 319024
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 319024 (312K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2022/winter/karyavali-assembly.pdf’
+
+     0K .......... .......... .......... .......... .......... 16% 41.1K 6s
+    50K .......... .......... .......... .......... .......... 32%  214K 3s
+   100K .......... .......... .......... .......... .......... 48%  183K 2s
+   150K .......... .......... .......... .......... .......... 64%  181K 1s
+   200K .......... .......... .......... .......... .......... 80% 5.73M 0s
+   250K .......... .......... .......... .......... .......... 96%  179K 0s
+   300K .......... .                                          100%  179K=2.4s
+
+2023-08-28 15:39:05 (132 KB/s) - ‘mls.org.in/pdf2022/winter/karyavali-assembly.pdf’ saved [319024/319024]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2022/monsoon/karyavali-assembly.pdf' (UTF-8) -> 'mls.org.in/pdf2022/monsoon/karyavali-assembly.pdf' (UTF-8)
+--2023-08-28 15:39:07--  http://mls.org.in/pdf2022/monsoon/karyavali-assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600001e6c120 (new refcount 1).
+
+---request begin---
+GET /pdf2022/monsoon/karyavali-assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Wed, 17 Aug 2022 07:48:21 GMT
+Accept-Ranges: bytes
+ETag: "23431b9db2d81:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:07 GMT
+Content-Length: 306780
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 306780 (300K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2022/monsoon/karyavali-assembly.pdf’
+
+     0K .......... .......... .......... .......... .......... 16% 44.1K 6s
+    50K .......... .......... .......... .......... .......... 33%  274K 3s
+   100K .......... .......... .......... .......... .......... 50%  154K 2s
+   150K .......... .......... .......... .......... .......... 66% 4.22M 1s
+   200K .......... .......... .......... .......... .......... 83%  209K 0s
+   250K .......... .......... .......... .......... ......... 100%  288K=2.1s
+
+2023-08-28 15:39:10 (145 KB/s) - ‘mls.org.in/pdf2022/monsoon/karyavali-assembly.pdf’ saved [306780/306780]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2022/budget/Karyawali First Session 2022.pdf' (UTF-8) -> 'mls.org.in/pdf2022/budget/Karyawali First Session 2022.pdf' (UTF-8)
+--2023-08-28 15:39:12--  http://mls.org.in/pdf2022/budget/Karyawali%20First%20Session%202022.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600000f5b0c0 (new refcount 1).
+
+---request begin---
+GET /pdf2022/budget/Karyawali%20First%20Session%202022.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 29 Apr 2022 07:14:45 GMT
+Accept-Ranges: bytes
+ETag: "73a628ce985bd81:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:11 GMT
+Content-Length: 605305
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 605305 (591K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2022/budget/Karyawali First Session 2022.pdf’
+
+     0K .......... .......... .......... .......... ..........  8% 48.7K 11s
+    50K .......... .......... .......... .......... .......... 16%  241K 6s
+   100K .......... .......... .......... .......... .......... 25%  160K 5s
+   150K .......... .......... .......... .......... .......... 33%  167K 4s
+   200K .......... .......... .......... .......... .......... 42%  163K 3s
+   250K .......... .......... .......... .......... .......... 50% 7.75M 2s
+   300K .......... .......... .......... .......... .......... 59%  250K 2s
+   350K .......... .......... .......... .......... .......... 67% 4.86M 1s
+   400K .......... .......... .......... .......... .......... 76% 2.45M 1s
+   450K .......... .......... .......... .......... .......... 84%  194K 0s
+   500K .......... .......... .......... .......... .......... 93% 7.22M 0s
+   550K .......... .......... .......... .......... .         100% 4.73M=2.7s
+
+2023-08-28 15:39:15 (222 KB/s) - ‘mls.org.in/pdf2022/budget/Karyawali First Session 2022.pdf’ saved [605305/605305]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2021/winter/karyavali-assembly.pdf' (UTF-8) -> 'mls.org.in/pdf2021/winter/karyavali-assembly.pdf' (UTF-8)
+--2023-08-28 15:39:17--  http://mls.org.in/pdf2021/winter/karyavali-assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600003644000 (new refcount 1).
+
+---request begin---
+GET /pdf2021/winter/karyavali-assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Wed, 29 Dec 2021 11:37:38 GMT
+Accept-Ranges: bytes
+ETag: "be6b807ba8fcd71:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:18 GMT
+Content-Length: 146264
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 146264 (143K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2021/winter/karyavali-assembly.pdf’
+
+     0K .......... .......... .......... .......... .......... 35% 44.0K 2s
+    50K .......... .......... .......... .......... .......... 70%  173K 1s
+   100K .......... .......... .......... .......... ..        100%  151K=1.7s
+
+2023-08-28 15:39:20 (83.5 KB/s) - ‘mls.org.in/pdf2021/winter/karyavali-assembly.pdf’ saved [146264/146264]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2021/monsoon/tatpurti-karyavali-assembly.pdf' (UTF-8) -> 'mls.org.in/pdf2021/monsoon/tatpurti-karyavali-assembly.pdf' (UTF-8)
+--2023-08-28 15:39:22--  http://mls.org.in/pdf2021/monsoon/tatpurti-karyavali-assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x000060000217c100 (new refcount 1).
+
+---request begin---
+GET /pdf2021/monsoon/tatpurti-karyavali-assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Tue, 22 Jun 2021 07:46:30 GMT
+Accept-Ranges: bytes
+ETag: "3b85c5b63a67d71:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:22 GMT
+Content-Length: 96946
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 96946 (95K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2021/monsoon/tatpurti-karyavali-assembly.pdf’
+
+     0K .......... .......... .......... .......... .......... 52% 43.7K 1s
+    50K .......... .......... .......... .......... ....      100%  118K=1.5s
+
+2023-08-28 15:39:24 (62.2 KB/s) - ‘mls.org.in/pdf2021/monsoon/tatpurti-karyavali-assembly.pdf’ saved [96946/96946]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2021/budget/karyavali-assembly.pdf' (UTF-8) -> 'mls.org.in/pdf2021/budget/karyavali-assembly.pdf' (UTF-8)
+--2023-08-28 15:39:26--  http://mls.org.in/pdf2021/budget/karyavali-assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000010e4980 (new refcount 1).
+
+---request begin---
+GET /pdf2021/budget/karyavali-assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Mon, 01 Mar 2021 11:34:16 GMT
+Accept-Ranges: bytes
+ETag: "4118b1cf8eed71:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:26 GMT
+Content-Length: 1747263
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 1747263 (1.7M) [application/pdf]
+Saving to: ‘mls.org.in/pdf2021/budget/karyavali-assembly.pdf’
+
+     0K .......... .......... .......... .......... ..........  2% 40.6K 41s
+    50K .......... .......... .......... .......... ..........  5%  162K 25s
+   100K .......... .......... .......... .......... ..........  8%  285K 18s
+   150K .......... .......... .......... .......... .......... 11%  149K 15s
+   200K .......... .......... .......... .......... .......... 14% 2.75M 12s
+   250K .......... .......... .......... .......... .......... 17%  171K 11s
+   300K .......... .......... .......... .......... .......... 20% 3.73M 9s
+   350K .......... .......... .......... .......... .......... 23%  173K 9s
+   400K .......... .......... .......... .......... .......... 26% 4.81M 7s
+   450K .......... .......... .......... .......... .......... 29% 4.26M 6s
+   500K .......... .......... .......... .......... .......... 32%  267K 6s
+   550K .......... .......... .......... .......... .......... 35% 3.83M 5s
+   600K .......... .......... .......... .......... .......... 38% 7.66M 5s
+   650K .......... .......... .......... .......... .......... 41%  201K 5s
+   700K .......... .......... .......... .......... .......... 43% 3.66M 4s
+   750K .......... .......... .......... .......... .......... 46% 3.86M 4s
+   800K .......... .......... .......... .......... .......... 49% 6.52M 3s
+   850K .......... .......... .......... .......... .......... 52% 4.48M 3s
+   900K .......... .......... .......... .......... .......... 55%  190K 3s
+   950K .......... .......... .......... .......... .......... 58%  669K 2s
+  1000K .......... .......... .......... .......... .......... 61% 1.60M 2s
+  1050K .......... .......... .......... .......... .......... 64% 1.52M 2s
+  1100K .......... .......... .......... .......... .......... 67% 1.71M 2s
+  1150K .......... .......... .......... .......... .......... 70% 1.15M 2s
+  1200K .......... .......... .......... .......... .......... 73%  913K 1s
+  1250K .......... .......... .......... .......... .......... 76% 3.38M 1s
+  1300K .......... .......... .......... .......... .......... 79% 3.57M 1s
+  1350K .......... .......... .......... .......... .......... 82% 5.78M 1s
+  1400K .......... .......... .......... .......... .......... 84% 4.48M 1s
+  1450K .......... .......... .......... .......... .......... 87% 4.01M 1s
+  1500K .......... .......... .......... .......... .......... 90% 1.33M 0s
+  1550K .......... .......... .......... .......... .......... 93%  266K 0s
+  1600K .......... .......... .......... .......... .......... 96% 5.58M 0s
+  1650K .......... .......... .......... .......... .......... 99% 4.07M 0s
+  1700K ......                                                100% 34.6M=4.0s
+
+2023-08-28 15:39:30 (425 KB/s) - ‘mls.org.in/pdf2021/budget/karyavali-assembly.pdf’ saved [1747263/1747263]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2020/winter/karyavali-assembly.pdf' (UTF-8) -> 'mls.org.in/pdf2020/winter/karyavali-assembly.pdf' (UTF-8)
+--2023-08-28 15:39:32--  http://mls.org.in/pdf2020/winter/karyavali-assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600003f4d740 (new refcount 1).
+
+---request begin---
+GET /pdf2020/winter/karyavali-assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 11 Dec 2020 07:33:25 GMT
+Accept-Ranges: bytes
+ETag: "c85c4ee98fcfd61:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:33 GMT
+Content-Length: 177709
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 177709 (174K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2020/winter/karyavali-assembly.pdf’
+
+     0K .......... .......... .......... .......... .......... 28% 43.8K 3s
+    50K .......... .......... .......... .......... .......... 57%  159K 1s
+   100K .......... .......... .......... .......... .......... 86%  169K 0s
+   150K .......... .......... ...                             100% 4.44M=1.8s
+
+2023-08-28 15:39:35 (98.8 KB/s) - ‘mls.org.in/pdf2020/winter/karyavali-assembly.pdf’ saved [177709/177709]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2020/monsoon/karyavali-monsoon-2020.pdf' (UTF-8) -> 'mls.org.in/pdf2020/monsoon/karyavali-monsoon-2020.pdf' (UTF-8)
+--2023-08-28 15:39:37--  http://mls.org.in/pdf2020/monsoon/karyavali-monsoon-2020.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600003572900 (new refcount 1).
+
+---request begin---
+GET /pdf2020/monsoon/karyavali-monsoon-2020.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Sun, 06 Sep 2020 08:11:53 GMT
+Accept-Ranges: bytes
+ETag: "488612612584d61:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:37 GMT
+Content-Length: 34296
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 34296 (33K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2020/monsoon/karyavali-monsoon-2020.pdf’
+
+     0K .......... .......... .......... ...                  100% 36.6K=0.9s
+
+2023-08-28 15:39:38 (36.6 KB/s) - ‘mls.org.in/pdf2020/monsoon/karyavali-monsoon-2020.pdf’ saved [34296/34296]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2020/budget/karyavali-assembly-2020.pdf' (UTF-8) -> 'mls.org.in/pdf2020/budget/karyavali-assembly-2020.pdf' (UTF-8)
+--2023-08-28 15:39:40--  http://mls.org.in/pdf2020/budget/karyavali-assembly-2020.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000031287c0 (new refcount 1).
+
+---request begin---
+GET /pdf2020/budget/karyavali-assembly-2020.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Sun, 23 Feb 2020 11:53:16 GMT
+Accept-Ranges: bytes
+ETag: "c92692d53fead51:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:40 GMT
+Content-Length: 188869
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 188869 (184K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2020/budget/karyavali-assembly-2020.pdf’
+
+     0K .......... .......... .......... .......... .......... 27% 40.5K 3s
+    50K .......... .......... .......... .......... .......... 54%  277K 1s
+   100K .......... .......... .......... .......... .......... 81%  156K 0s
+   150K .......... .......... .......... ....                 100%  139K=2.0s
+
+2023-08-28 15:39:43 (93.0 KB/s) - ‘mls.org.in/pdf2020/budget/karyavali-assembly-2020.pdf’ saved [188869/188869]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2019/winter/karyavali assembly winter 2019.pdf' (UTF-8) -> 'mls.org.in/pdf2019/winter/karyavali assembly winter 2019.pdf' (UTF-8)
+--2023-08-28 15:39:45--  http://mls.org.in/pdf2019/winter/karyavali%20assembly%20winter%202019.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600003e30220 (new refcount 1).
+
+---request begin---
+GET /pdf2019/winter/karyavali%20assembly%20winter%202019.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Mon, 16 Dec 2019 08:43:06 GMT
+Accept-Ranges: bytes
+ETag: "98a7efd5ecb3d51:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:45 GMT
+Content-Length: 311398
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 311398 (304K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2019/winter/karyavali assembly winter 2019.pdf’
+
+     0K .......... .......... .......... .......... .......... 16% 45.9K 6s
+    50K .......... .......... .......... .......... .......... 32%  227K 3s
+   100K .......... .......... .......... .......... .......... 49%  151K 2s
+   150K .......... .......... .......... .......... .......... 65% 2.22M 1s
+   200K .......... .......... .......... .......... .......... 82%  170K 0s
+   250K .......... .......... .......... .......... .......... 98% 8.73M 0s
+   300K ....                                                  100%  979K=2.0s
+
+2023-08-28 15:39:48 (154 KB/s) - ‘mls.org.in/pdf2019/winter/karyavali assembly winter 2019.pdf’ saved [311398/311398]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2022/budget/karyavali  second session 2019.pdf' (UTF-8) -> 'mls.org.in/pdf2022/budget/karyavali  second session 2019.pdf' (UTF-8)
+--2023-08-28 15:39:50--  http://mls.org.in/pdf2022/budget/karyavali%20%20second%20session%202019.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600001058000 (new refcount 1).
+
+---request begin---
+GET /pdf2022/budget/karyavali%20%20second%20session%202019.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Thu, 28 Apr 2022 12:13:05 GMT
+Accept-Ranges: bytes
+ETag: "12cdb50f95ad81:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:50 GMT
+Content-Length: 766594
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 766594 (749K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2022/budget/karyavali  second session 2019.pdf’
+
+     0K .......... .......... .......... .......... ..........  6% 60.5K 12s
+    50K .......... .......... .......... .......... .......... 13%  174K 7s
+   100K .......... .......... .......... .......... .......... 20%  153K 6s
+   150K .......... .......... .......... .......... .......... 26% 81.9K 6s
+   200K .......... .......... .......... .......... .......... 33% 4.17M 4s
+   250K .......... .......... .......... .......... .......... 40% 2.49M 3s
+   300K .......... .......... .......... .......... .......... 46% 5.47M 2s
+   350K .......... .......... .......... .......... .......... 53% 6.26M 2s
+   400K .......... .......... .......... .......... .......... 60%  276K 2s
+   450K .......... .......... .......... .......... .......... 66%  757K 1s
+   500K .......... .......... .......... .......... .......... 73% 1.59M 1s
+   550K .......... .......... .......... .......... .......... 80%  272K 1s
+   600K .......... .......... .......... .......... .......... 86% 5.94M 0s
+   650K .......... .......... .......... .......... .......... 93%  587K 0s
+   700K .......... .......... .......... .......... ........  100% 4.45M=2.7s
+
+2023-08-28 15:39:53 (281 KB/s) - ‘mls.org.in/pdf2022/budget/karyavali  second session 2019.pdf’ saved [766594/766594]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2022/budget/karyavali First Sesssion 2019.pdf' (UTF-8) -> 'mls.org.in/pdf2022/budget/karyavali First Sesssion 2019.pdf' (UTF-8)
+--2023-08-28 15:39:55--  http://mls.org.in/pdf2022/budget/karyavali%20First%20Sesssion%202019.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000018481c0 (new refcount 1).
+
+---request begin---
+GET /pdf2022/budget/karyavali%20First%20Sesssion%202019.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Thu, 28 Apr 2022 12:13:04 GMT
+Accept-Ranges: bytes
+ETag: "d37a1550f95ad81:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:56 GMT
+Content-Length: 48290
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 48290 (47K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2022/budget/karyavali First Sesssion 2019.pdf’
+
+     0K .......... .......... .......... .......... .......   100% 38.2K=1.2s
+
+2023-08-28 15:39:57 (38.2 KB/s) - ‘mls.org.in/pdf2022/budget/karyavali First Sesssion 2019.pdf’ saved [48290/48290]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf2022/budget/karyavali Third Session 2018.pdf' (UTF-8) -> 'mls.org.in/pdf2022/budget/karyavali Third Session 2018.pdf' (UTF-8)
+--2023-08-28 15:39:59--  http://mls.org.in/pdf2022/budget/karyavali%20Third%20Session%202018.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600000b5cac0 (new refcount 1).
+
+---request begin---
+GET /pdf2022/budget/karyavali%20Third%20Session%202018.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Thu, 28 Apr 2022 12:13:02 GMT
+Accept-Ranges: bytes
+ETag: "fb302c4ff95ad81:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:09:59 GMT
+Content-Length: 617838
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 617838 (603K) [application/pdf]
+Saving to: ‘mls.org.in/pdf2022/budget/karyavali Third Session 2018.pdf’
+
+     0K .......... .......... .......... .......... ..........  8% 40.6K 14s
+    50K .......... .......... .......... .......... .......... 16%  274K 7s
+   100K .......... .......... .......... .......... .......... 24%  152K 5s
+   150K .......... .......... .......... .......... .......... 33% 6.43M 4s
+   200K .......... .......... .......... .......... .......... 41%  160K 3s
+   250K .......... .......... .......... .......... .......... 49% 2.30M 2s
+   300K .......... .......... .......... .......... .......... 58%  256K 2s
+   350K .......... .......... .......... .......... .......... 66% 4.17M 1s
+   400K .......... .......... .......... .......... .......... 74%  185K 1s
+   450K .......... .......... .......... .......... .......... 82% 6.72M 1s
+   500K .......... .......... .......... .......... .......... 91% 3.79M 0s
+   550K .......... .......... .......... .......... .......... 99%  128K 0s
+   600K ...                                                   100% 67.1K=3.0s
+
+2023-08-28 15:40:03 (203 KB/s) - ‘mls.org.in/pdf2022/budget/karyavali Third Session 2018.pdf’ saved [617838/617838]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf 2018/monsoon 2018/antim karyavali assembly monsoon 2018.pdf' (UTF-8) -> 'mls.org.in/pdf 2018/monsoon 2018/antim karyavali assembly monsoon 2018.pdf' (UTF-8)
+--2023-08-28 15:40:05--  http://mls.org.in/pdf%202018/monsoon%202018/antim%20karyavali%20assembly%20monsoon%202018.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600000da0a20 (new refcount 1).
+
+---request begin---
+GET /pdf%202018/monsoon%202018/antim%20karyavali%20assembly%20monsoon%202018.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Mon, 02 Jul 2018 07:05:30 GMT
+Accept-Ranges: bytes
+ETag: "a90110d311d41:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:05 GMT
+Content-Length: 169725
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 169725 (166K) [application/pdf]
+Saving to: ‘mls.org.in/pdf 2018/monsoon 2018/antim karyavali assembly monsoon 2018.pdf’
+
+     0K .......... .......... .......... .......... .......... 30% 54.0K 2s
+    50K .......... .......... .......... .......... .......... 60%  173K 1s
+   100K .......... .......... .......... .......... .......... 90%  155K 0s
+   150K .......... .....                                      100% 3.21M=1.5s
+
+2023-08-28 15:40:07 (108 KB/s) - ‘mls.org.in/pdf 2018/monsoon 2018/antim karyavali assembly monsoon 2018.pdf’ saved [169725/169725]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf 2018/budjet 2018/HB 2664 (Karyavli) assembly.pdf' (UTF-8) -> 'mls.org.in/pdf 2018/budjet 2018/HB 2664 (Karyavli) assembly.pdf' (UTF-8)
+--2023-08-28 15:40:09--  http://mls.org.in/pdf%202018/budjet%202018/HB%202664%20(Karyavli)%20assembly.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000035ac2e0 (new refcount 1).
+
+---request begin---
+GET /pdf%202018/budjet%202018/HB%202664%20(Karyavli)%20assembly.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Sun, 25 Feb 2018 14:56:26 GMT
+Accept-Ranges: bytes
+ETag: "63c4b4cf48aed31:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:10 GMT
+Content-Length: 270703
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 270703 (264K) [application/pdf]
+Saving to: ‘mls.org.in/pdf 2018/budjet 2018/HB 2664 (Karyavli) assembly.pdf’
+
+     0K .......... .......... .......... .......... .......... 18% 40.2K 5s
+    50K .......... .......... .......... .......... .......... 37%  224K 2s
+   100K .......... .......... .......... .......... .......... 56%  223K 1s
+   150K .......... .......... .......... .......... .......... 75%  140K 1s
+   200K .......... .......... .......... .......... .......... 94% 4.20M 0s
+   250K .......... ....                                       100% 3.69M=2.1s
+
+2023-08-28 15:40:12 (128 KB/s) - ‘mls.org.in/pdf 2018/budjet 2018/HB 2664 (Karyavli) assembly.pdf’ saved [270703/270703]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf winter 2017/HB-1929 Karyawali.pdf' (UTF-8) -> 'mls.org.in/pdf winter 2017/HB-1929 Karyawali.pdf' (UTF-8)
+--2023-08-28 15:40:14--  http://mls.org.in/pdf%20winter%202017/HB-1929%20Karyawali.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000033941c0 (new refcount 1).
+
+---request begin---
+GET /pdf%20winter%202017/HB-1929%20Karyawali.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Sun, 10 Dec 2017 06:07:43 GMT
+Accept-Ranges: bytes
+ETag: "7a863317d71d31:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:15 GMT
+Content-Length: 152044
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 152044 (148K) [application/pdf]
+Saving to: ‘mls.org.in/pdf winter 2017/HB-1929 Karyawali.pdf’
+
+     0K .......... .......... .......... .......... .......... 33% 40.8K 2s
+    50K .......... .......... .......... .......... .......... 67%  264K 1s
+   100K .......... .......... .......... .......... ........  100% 3.03M=1.4s
+
+2023-08-28 15:40:16 (104 KB/s) - ‘mls.org.in/pdf winter 2017/HB-1929 Karyawali.pdf’ saved [152044/152044]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf monsoon 2017/karyavali assembly monsoon 2017.pdf' (UTF-8) -> 'mls.org.in/pdf monsoon 2017/karyavali assembly monsoon 2017.pdf' (UTF-8)
+--2023-08-28 15:40:18--  http://mls.org.in/pdf%20monsoon%202017/karyavali%20assembly%20monsoon%202017.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600002deda00 (new refcount 1).
+
+---request begin---
+GET /pdf%20monsoon%202017/karyavali%20assembly%20monsoon%202017.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Sun, 23 Jul 2017 08:08:01 GMT
+Accept-Ranges: bytes
+ETag: "114089cd8a3d31:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:19 GMT
+Content-Length: 156807
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 156807 (153K) [application/pdf]
+Saving to: ‘mls.org.in/pdf monsoon 2017/karyavali assembly monsoon 2017.pdf’
+
+     0K .......... .......... .......... .......... .......... 32% 44.4K 2s
+    50K .......... .......... .......... .......... .......... 65%  121K 1s
+   100K .......... .......... .......... .......... .......... 97%  392K 0s
+   150K ...                                                   100% 12.6M=1.7s
+
+2023-08-28 15:40:21 (91.9 KB/s) - ‘mls.org.in/pdf monsoon 2017/karyavali assembly monsoon 2017.pdf’ saved [156807/156807]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/newpdf2017/antim karyavali vidhansabha.pdf' (UTF-8) -> 'mls.org.in/newpdf2017/antim karyavali vidhansabha.pdf' (UTF-8)
+--2023-08-28 15:40:23--  http://mls.org.in/newpdf2017/antim%20karyavali%20vidhansabha.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600003c51b00 (new refcount 1).
+
+---request begin---
+GET /newpdf2017/antim%20karyavali%20vidhansabha.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Sun, 05 Mar 2017 11:27:45 GMT
+Accept-Ranges: bytes
+ETag: "31ca2383a395d21:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:23 GMT
+Content-Length: 286548
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 286548 (280K) [application/pdf]
+Saving to: ‘mls.org.in/newpdf2017/antim karyavali vidhansabha.pdf’
+
+     0K .......... .......... .......... .......... .......... 17% 44.3K 5s
+    50K .......... .......... .......... .......... .......... 35%  257K 2s
+   100K .......... .......... .......... .......... .......... 53%  174K 1s
+   150K .......... .......... .......... .......... .......... 71%  176K 1s
+   200K .......... .......... .......... .......... .......... 89% 5.68M 0s
+   250K .......... .......... .........                       100% 6.40M=1.9s
+
+2023-08-28 15:40:25 (147 KB/s) - ‘mls.org.in/newpdf2017/antim karyavali vidhansabha.pdf’ saved [286548/286548]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/newpdf/tatpurati karyavali.pdf' (UTF-8) -> 'mls.org.in/newpdf/tatpurati karyavali.pdf' (UTF-8)
+--2023-08-28 15:40:27--  http://mls.org.in/newpdf/tatpurati%20karyavali.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600002e514a0 (new refcount 1).
+
+---request begin---
+GET /newpdf/tatpurati%20karyavali.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Sun, 04 Dec 2016 07:16:44 GMT
+Accept-Ranges: bytes
+ETag: "98a82b5efe4dd21:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:27 GMT
+Content-Length: 650683
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 650683 (635K) [application/pdf]
+Saving to: ‘mls.org.in/newpdf/tatpurati karyavali.pdf’
+
+     0K .......... .......... .......... .......... ..........  7% 44.4K 13s
+    50K .......... .......... .......... .......... .......... 15%  198K 7s
+   100K .......... .......... .......... .......... .......... 23%  106K 6s
+   150K .......... .......... .......... .......... .......... 31%  438K 4s
+   200K .......... .......... .......... .......... .......... 39% 2.71M 3s
+   250K .......... .......... .......... .......... .......... 47%  179K 3s
+   300K .......... .......... .......... .......... .......... 55% 1.74M 2s
+   350K .......... .......... .......... .......... .......... 62%  220K 1s
+   400K .......... .......... .......... .......... .......... 70% 3.98M 1s
+   450K .......... .......... .......... .......... .......... 78%  148K 1s
+   500K .......... .......... .......... .......... .......... 86% 4.75M 0s
+   550K .......... .......... .......... .......... .......... 94% 3.38M 0s
+   600K .......... .......... .......... .....                100% 2.35M=2.9s
+
+2023-08-28 15:40:31 (219 KB/s) - ‘mls.org.in/newpdf/tatpurati karyavali.pdf’ saved [650683/650683]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/karyavali16A2.pdf' (UTF-8) -> 'mls.org.in/pdf/karyavali16A2.pdf' (UTF-8)
+--2023-08-28 15:40:33--  http://mls.org.in/pdf/karyavali16A2.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600002c2a920 (new refcount 1).
+
+---request begin---
+GET /pdf/karyavali16A2.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 03:03:51 GMT
+Accept-Ranges: bytes
+ETag: "3e7365acc5e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:33 GMT
+Content-Length: 189882
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 189882 (185K) [application/pdf]
+Saving to: ‘mls.org.in/pdf/karyavali16A2.pdf’
+
+     0K .......... .......... .......... .......... .......... 26% 40.6K 3s
+    50K .......... .......... .......... .......... .......... 53%  267K 1s
+   100K .......... .......... .......... .......... .......... 80%  174K 0s
+   150K .......... .......... .......... .....                100% 6.16M=1.7s
+
+2023-08-28 15:40:35 (108 KB/s) - ‘mls.org.in/pdf/karyavali16A2.pdf’ saved [189882/189882]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/karyavali16A1.pdf' (UTF-8) -> 'mls.org.in/pdf/karyavali16A1.pdf' (UTF-8)
+--2023-08-28 15:40:37--  http://mls.org.in/pdf/karyavali16A1.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000017f0200 (new refcount 1).
+
+---request begin---
+GET /pdf/karyavali16A1.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 03:03:43 GMT
+Accept-Ranges: bytes
+ETag: "ce5a94a7c5e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:37 GMT
+Content-Length: 1168109
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 1168109 (1.1M) [application/pdf]
+Saving to: ‘mls.org.in/pdf/karyavali16A1.pdf’
+
+     0K .......... .......... .......... .......... ..........  4% 44.3K 25s
+    50K .......... .......... .......... .......... ..........  8%  210K 14s
+   100K .......... .......... .......... .......... .......... 13%  175K 11s
+   150K .......... .......... .......... .......... .......... 17% 3.84M 8s
+   200K .......... .......... .......... .......... .......... 21%  179K 7s
+   250K .......... .......... .......... .......... .......... 26% 7.05M 5s
+   300K .......... .......... .......... .......... .......... 30%  185K 5s
+   350K .......... .......... .......... .......... .......... 35% 4.53M 4s
+   400K .......... .......... .......... .......... .......... 39% 5.40M 3s
+   450K .......... .......... .......... .......... .......... 43% 4.40M 3s
+   500K .......... .......... .......... .......... .......... 48%  192K 3s
+   550K .......... .......... .......... .......... .......... 52% 7.54M 2s
+   600K .......... .......... .......... .......... .......... 56% 4.38M 2s
+   650K .......... .......... .......... .......... .......... 61% 7.51M 2s
+   700K .......... .......... .......... .......... .......... 65%  679K 1s
+   750K .......... .......... .......... .......... .......... 70%  274K 1s
+   800K .......... .......... .......... .......... .......... 74% 4.18M 1s
+   850K .......... .......... .......... .......... .......... 78% 7.58M 1s
+   900K .......... .......... .......... .......... .......... 83% 4.74M 1s
+   950K .......... .......... .......... .......... .......... 87% 7.55M 0s
+  1000K .......... .......... .......... .......... .......... 92% 1.70M 0s
+  1050K .......... .......... .......... .......... .......... 96%  229K 0s
+  1100K .......... .......... .......... ..........           100% 5.18M=3.1s
+
+2023-08-28 15:40:41 (370 KB/s) - ‘mls.org.in/pdf/karyavali16A1.pdf’ saved [1168109/1168109]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/karyawali14A3.pdf' (UTF-8) -> 'mls.org.in/pdf/karyawali14A3.pdf' (UTF-8)
+--2023-08-28 15:40:43--  http://mls.org.in/pdf/karyawali14A3.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x000060000394c1c0 (new refcount 1).
+
+---request begin---
+GET /pdf/karyawali14A3.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 03:03:54 GMT
+Accept-Ranges: bytes
+ETag: "c6abacaec5e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:43 GMT
+Content-Length: 95413
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 95413 (93K) [application/pdf]
+Saving to: ‘mls.org.in/pdf/karyawali14A3.pdf’
+
+     0K .......... .......... .......... .......... .......... 53% 49.3K 1s
+    50K .......... .......... .......... .......... ...       100%  135K=1.3s
+
+2023-08-28 15:40:45 (69.9 KB/s) - ‘mls.org.in/pdf/karyawali14A3.pdf’ saved [95413/95413]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/karyawali_splA.pdf' (UTF-8) -> 'mls.org.in/pdf/karyawali_splA.pdf' (UTF-8)
+--2023-08-28 15:40:47--  http://mls.org.in/pdf/karyawali_splA.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600000f69480 (new refcount 1).
+
+---request begin---
+GET /pdf/karyawali_splA.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 03:04:29 GMT
+Accept-Ranges: bytes
+ETag: "2e2e37c3c5e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:47 GMT
+Content-Length: 86153
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 86153 (84K) [application/pdf]
+Saving to: ‘mls.org.in/pdf/karyawali_splA.pdf’
+
+     0K .......... .......... .......... .......... .......... 59% 44.0K 1s
+    50K .......... .......... .......... ....                 100%  118K=1.4s
+
+2023-08-28 15:40:49 (59.1 KB/s) - ‘mls.org.in/pdf/karyawali_splA.pdf’ saved [86153/86153]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/karyavali14A2.pdf' (UTF-8) -> 'mls.org.in/pdf/karyavali14A2.pdf' (UTF-8)
+--2023-08-28 15:40:51--  http://mls.org.in/pdf/karyavali14A2.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000036d0940 (new refcount 1).
+
+---request begin---
+GET /pdf/karyavali14A2.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:51 GMT
+Content-Length: 103
+
+---response end---
+404 Not Found
+Registered socket 6 for persistent reuse.
+Skipping 103 bytes of body: [The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.] done.
+2023-08-28 15:40:52 ERROR 404: Not Found.
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/karyavali14A1.pdf' (UTF-8) -> 'mls.org.in/pdf/karyavali14A1.pdf' (UTF-8)
+--2023-08-28 15:40:54--  http://mls.org.in/pdf/karyavali14A1.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x000060000244d360 (new refcount 1).
+
+---request begin---
+GET /pdf/karyavali14A1.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 03:03:23 GMT
+Accept-Ranges: bytes
+ETag: "1672189cc5e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:54 GMT
+Content-Length: 248577
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 248577 (243K) [application/pdf]
+Saving to: ‘mls.org.in/pdf/karyavali14A1.pdf’
+
+     0K .......... .......... .......... .......... .......... 20% 43.3K 4s
+    50K .......... .......... .......... .......... .......... 41%  180K 2s
+   100K .......... .......... .......... .......... .......... 61%  176K 1s
+   150K .......... .......... .......... .......... .......... 82% 7.04M 0s
+   200K .......... .......... .......... .......... ..        100%  150K=2.0s
+
+2023-08-28 15:40:57 (121 KB/s) - ‘mls.org.in/pdf/karyavali14A1.pdf’ saved [248577/248577]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/finalkaryavalibudgetA2013.pdf' (UTF-8) -> 'mls.org.in/pdf/finalkaryavalibudgetA2013.pdf' (UTF-8)
+--2023-08-28 15:40:59--  http://mls.org.in/pdf/finalkaryavalibudgetA2013.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000010dc200 (new refcount 1).
+
+---request begin---
+GET /pdf/finalkaryavalibudgetA2013.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 02:56:52 GMT
+Accept-Ranges: bytes
+ETag: "86c4ebb2c4e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:10:58 GMT
+Content-Length: 243920
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 243920 (238K) [application/pdf]
+Saving to: ‘mls.org.in/pdf/finalkaryavalibudgetA2013.pdf’
+
+     0K .......... .......... .......... .......... .......... 20% 43.8K 4s
+    50K .......... .......... .......... .......... .......... 41%  172K 2s
+   100K .......... .......... .......... .......... .......... 62%  176K 1s
+   150K .......... .......... .......... .......... .......... 83%  167K 0s
+   200K .......... .......... .......... ........             100% 6.07M=2.0s
+
+2023-08-28 15:41:01 (118 KB/s) - ‘mls.org.in/pdf/finalkaryavalibudgetA2013.pdf’ saved [243920/243920]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/Finalkaryavali_A2.pdf' (UTF-8) -> 'mls.org.in/pdf/Finalkaryavali_A2.pdf' (UTF-8)
+--2023-08-28 15:41:03--  http://mls.org.in/pdf/Finalkaryavali_A2.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600000a84b60 (new refcount 1).
+
+---request begin---
+GET /pdf/Finalkaryavali_A2.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 02:57:00 GMT
+Accept-Ranges: bytes
+ETag: "66819bb7c4e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:11:03 GMT
+Content-Length: 219766
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 219766 (215K) [application/pdf]
+Saving to: ‘mls.org.in/pdf/Finalkaryavali_A2.pdf’
+
+     0K .......... .......... .......... .......... .......... 23% 44.2K 4s
+    50K .......... .......... .......... .......... .......... 46%  164K 2s
+   100K .......... .......... .......... .......... .......... 69% 5.51M 1s
+   150K .......... .......... .......... .......... .......... 93% 97.7K 0s
+   200K .......... ....                                       100% 6.24M=2.0s
+
+2023-08-28 15:41:06 (109 KB/s) - ‘mls.org.in/pdf/Finalkaryavali_A2.pdf’ saved [219766/219766]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/Temporary Karyavali sabha.pdf' (UTF-8) -> 'mls.org.in/pdf/Temporary Karyavali sabha.pdf' (UTF-8)
+--2023-08-28 15:41:08--  http://mls.org.in/pdf/Temporary%20Karyavali%20sabha.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x00006000012b9260 (new refcount 1).
+
+---request begin---
+GET /pdf/Temporary%20Karyavali%20sabha.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 03:28:45 GMT
+Accept-Ranges: bytes
+ETag: "15284727c9e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:11:08 GMT
+Content-Length: 300812
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 300812 (294K) [application/pdf]
+Saving to: ‘mls.org.in/pdf/Temporary Karyavali sabha.pdf’
+
+     0K .......... .......... .......... .......... .......... 17% 40.7K 6s
+    50K .......... .......... .......... .......... .......... 34%  265K 3s
+   100K .......... .......... .......... .......... .......... 51% 6.10M 1s
+   150K .......... .......... .......... .......... .......... 68%  176K 1s
+   200K .......... .......... .......... .......... .......... 85%  182K 0s
+   250K .......... .......... .......... .......... ...       100% 6.91M=2.0s
+
+2023-08-28 15:41:11 (148 KB/s) - ‘mls.org.in/pdf/Temporary Karyavali sabha.pdf’ saved [300812/300812]
+
+DEBUG output created by Wget 1.21.3 on darwin19.6.0.
+
+Reading HSTS entries from /Users/mukund/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'mls.org.in/pdf/Final karyavaliAssrainy12.pdf' (UTF-8) -> 'mls.org.in/pdf/Final karyavaliAssrainy12.pdf' (UTF-8)
+--2023-08-28 15:41:13--  http://mls.org.in/pdf/Final%20karyavaliAssrainy12.pdf
+Resolving mls.org.in (mls.org.in)... 208.91.199.7
+Caching mls.org.in => 208.91.199.7
+Connecting to mls.org.in (mls.org.in)|208.91.199.7|:80... connected.
+Created socket 6.
+Releasing 0x0000600000086000 (new refcount 1).
+
+---request begin---
+GET /pdf/Final%20karyavaliAssrainy12.pdf HTTP/1.1
+Host: mls.org.in
+User-Agent: Wget/1.21.3
+Accept: */*
+Accept-Encoding: identity
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Last-Modified: Fri, 22 Jul 2016 02:56:31 GMT
+Accept-Ranges: bytes
+ETag: "ba749ea6c4e3d11:0"
+Server: 
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Mon, 28 Aug 2023 10:11:13 GMT
+Content-Length: 202907
+
+---response end---
+200 OK
+Registered socket 6 for persistent reuse.
+Length: 202907 (198K) [application/pdf]
+Saving to: ‘mls.org.in/pdf/Final karyavaliAssrainy12.pdf’
+
+     0K .......... .......... .......... .......... .......... 25% 44.4K 3s
+    50K .......... .......... .......... .......... .......... 50%  162K 1s
+   100K .......... .......... .......... .......... .......... 75%  198K 1s
+   150K .......... .......... .......... .......... ........  100% 6.03M=1.7s
+
+2023-08-28 15:41:15 (117 KB/s) - ‘mls.org.in/pdf/Final karyavaliAssrainy12.pdf’ saved [202907/202907]
+

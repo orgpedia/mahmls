@@ -1,0 +1,7 @@
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf2021/budget/karyavali-assembly.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '2021'
+  url: http://mls.org.in/pdf2021/budget/karyavali-assembly.pdf
+  name: mahmls-520.pdf

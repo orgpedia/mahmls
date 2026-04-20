@@ -1,0 +1,10 @@
+15759998   Mangal
+2596628    MangalBold
+1821607    Kokila
+445594     FourCMRAbhishek
+331491     DVTTSurekhNormal
+246080     KokilaBold
+108510     DVBWTTYogeshNormal
+62349      DVTTSurekh
+54822      DVBWTTYogesh
+54341      SakalMarathi

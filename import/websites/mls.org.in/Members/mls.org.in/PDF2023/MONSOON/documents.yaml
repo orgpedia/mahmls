@@ -1,0 +1,8 @@
+- repo_path: /import/websites/mls.org.in/Members/mls.org.in/PDF2023/MONSOON/list-of-mla.pdf
+  house: Assembly
+  doc_type: Members
+  session: Monsoon
+  url: http://mls.org.in/PDF2023/MONSOON/list-of-mla.pdf
+  year: 2023
+  date: '2023-08-08'
+  name: mahmls-1657.pdf

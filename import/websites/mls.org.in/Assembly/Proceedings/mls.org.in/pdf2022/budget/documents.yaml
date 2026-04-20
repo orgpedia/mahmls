@@ -1,0 +1,31 @@
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf2022/budget/Karyawali First Session 2022.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '2022'
+  url: http://mls.org.in/pdf2022/budget/Karyawali%20First%20Session%202022.pdf
+  name: mahmls-539.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf2022/budget/karyavali  second session 2019.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '2022'
+  url: http://mls.org.in/pdf2022/budget/karyavali%20%20second%20session%202019.pdf
+  name: mahmls-540.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf2022/budget/karyavali First Sesssion 2019.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '2022'
+  url: http://mls.org.in/pdf2022/budget/karyavali%20First%20Sesssion%202019.pdf
+  name: mahmls-541.pdf
+
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf2022/budget/karyavali Third Session 2018.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Budget
+  year: '2022'
+  url: http://mls.org.in/pdf2022/budget/karyavali%20Third%20Session%202018.pdf
+  name: mahmls-542.pdf

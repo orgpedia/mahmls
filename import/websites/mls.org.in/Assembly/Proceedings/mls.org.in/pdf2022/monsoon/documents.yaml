@@ -1,0 +1,7 @@
+- repo_path: /import/websites/mls.org.in/Assembly/Proceedings/mls.org.in/pdf2022/monsoon/karyavali-assembly.pdf
+  house: Assembly
+  doc_type: Proceedings
+  session: Monsoon
+  year: '2022'
+  url: http://mls.org.in/pdf2022/monsoon/karyavali-assembly.pdf
+  name: mahmls-538.pdf

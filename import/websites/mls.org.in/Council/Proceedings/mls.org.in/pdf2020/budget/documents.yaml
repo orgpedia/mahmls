@@ -1,0 +1,7 @@
+- repo_path: /import/websites/mls.org.in/Council/Proceedings/mls.org.in/pdf2020/budget/Karyavali 2nd (budget) Session 2020.pdf
+  house: Council
+  doc_type: Proceedings
+  session: Budget
+  year: '2020'
+  url: http://mls.org.in/pdf2020/budget/Karyavali%202nd%20%28budget%29%20Session%202020.pdf
+  name: mahmls-1.pdf
